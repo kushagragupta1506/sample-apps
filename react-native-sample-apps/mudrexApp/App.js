@@ -67,8 +67,8 @@ export default function DashboardStory() {
               height: "100%",
             }}
             storyGroupSize="small"
-            storylyId="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NfaWQiOjgwMTAsImFwcF9pZCI6MTI4ODMsImluc19pZCI6MTM5NTh9.K-rKxJvwJhOxTjGTmneuqKKPCfL5OtOXm-_jy4dAV5A"
-            //storylyId="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NfaWQiOjgwMTAsImFwcF9pZCI6MTI4ODIsImluc19pZCI6MTM5NTd9.yputf40zgFjTzYsFRBpHc0dNjf4MlyiI8bthzt52JOA"
+            storylyId="Add your iOS_Token"
+            //storylyId="Add your Android_token"
             /*storylySegments={[
               "indian_users", "D30 +", "is_coinset_investor", "eng_speakers", "italian_speakers",
               "d0 - d7"
