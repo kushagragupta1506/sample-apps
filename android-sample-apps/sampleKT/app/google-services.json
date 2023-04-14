@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "950372357519",
+    "project_id": "samplekt",
+    "storage_bucket": "samplekt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950372357519:android:da5cae835b64f861b9a7fa",
+        "android_client_info": {
+          "package_name": "com.samplekt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950372357519-4g7lvkpud46b5ghjqek181dcpuddgn36.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHc8JoulXkHI5zteghp5nniRE5WSpUjIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950372357519-4g7lvkpud46b5ghjqek181dcpuddgn36.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

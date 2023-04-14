@@ -1,0 +1,16 @@
+PODS:
+  - Storyly (1.32.1)
+
+DEPENDENCIES:
+  - Storyly (= 1.32.1)
+
+SPEC REPOS:
+  trunk:
+    - Storyly
+
+SPEC CHECKSUMS:
+  Storyly: 8666b3a33c14a6a3ac45c6b043bb2bd1786703ac
+
+PODFILE CHECKSUM: 6eedfea9c0f93adbc3dafeb2b90d1e00252a3e03
+
+COCOAPODS: 1.12.0
