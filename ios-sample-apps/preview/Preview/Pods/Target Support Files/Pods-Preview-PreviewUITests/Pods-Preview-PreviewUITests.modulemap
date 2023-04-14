@@ -1,6 +1,0 @@
-framework module Pods_Preview_PreviewUITests {
-  umbrella header "Pods-Preview-PreviewUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}

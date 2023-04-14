@@ -1,6 +1,0 @@
-framework module Pods_PreviewTests {
-  umbrella header "Pods-PreviewTests-umbrella.h"
-
-  export *
-  module * { export * }
-}
