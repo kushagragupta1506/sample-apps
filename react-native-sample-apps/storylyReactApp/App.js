@@ -158,8 +158,9 @@ export default class App extends Component {
                     onFail={errorMessage => {
                         console.log(`[Storyly-2] onFail ${errorMessage}`);
                     }}
-                    onPress={pressEvent => {
-                        console.log(`[Storyly-2] onPress`);
+                    onPress={e => {
+                        if (e.media.actionUrl) Linking.openURL(e.media.actionUrl)
+                         console.log(`[Storyly] default - onPress`, e.media.actionUrl);
                     }}
                     onEvent={eventPayload => {
                         console.log(`[Storyly-2] onEvent`);
