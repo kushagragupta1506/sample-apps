@@ -17,8 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         let configuration = Braze.Configuration(
-            apiKey: "03c6f5df-b373-4f79-b4dd-0f7f8e34b0f9",
-            endpoint: "sdk.iad-03.braze.com"
+            apiKey: "API_KEY",
+            endpoint: "end_point"
         )
         let braze = Braze(configuration: configuration)
         AppDelegate.braze = braze
