@@ -8,6 +8,8 @@ import android.os.Bundle
 import android.util.Log
 import com.appsamurai.storyly.*
 import com.appsamurai.storyly.analytics.StorylyEvent
+import com.appsamurai.storyly.data.managers.product.STRCart
+import com.appsamurai.storyly.data.managers.product.STRCartEventResult
 import com.appsamurai.storyly.data.managers.product.STRProductItem
 import com.appsamurai.storyly.data.managers.product.STRProductVariant
 import com.appsamurai.storyly.styling.StoryGroupIconStyling
@@ -35,30 +37,52 @@ class MainActivity : AppCompatActivity() {
         )
 
         storylyView.storylyInit = StorylyInit(
-            "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NfaWQiOjEwMjE3LCJhcHBfaWQiOjE1MzcwLCJpbnNfaWQiOjE2ODI5fQ.nHTv2-JzTtQYtm2Yl5xVLQYM1pdTE_srt0ONcwRP3XQ",
+            "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NfaWQiOjcxMzcsImFwcF9pZCI6MTE3NDYsImluc19pZCI6MTI1ODJ9.k7IVUbx4b23WTobh7u-ZIAYMdjN1xIDyA8z5WWncWbU",
+            segmentation = StorylySegmentation(setOf("how-to", "introduction", "discover", "newuser")),
             userData = userPropertiesData,
+            customParameter = "Gold Member",
         )
 
-        storylyView.hydrateProducts(products) // This function allows you to hydrate your products
 
-        //StorylyProductListener notifies the application when an event occurs in StorylyView related to the products.
+
+        storylyView.setStoryGroupTextStyling(StoryGroupTextStyling(
+            //typeface = Typeface.MONOSPACE
+        ))
+
+        storylyView.setStoryGroupSize(StoryGroupSize.Small)
+        storylyView.setStoryGroupIconStyling(StoryGroupIconStyling(
+            200f,
+            200f,
+            100f
+        ))
+        //storylyView.setStoryInteractiveTextTypeface(Typeface.MONOSPACE)
+
+        storylyView.setStoryHeaderStyling(StoryHeaderStyling(
+            isTextVisible = true,
+            isIconVisible = true
+        ))
+
+        //Storyly Product Listener
         storylyView.storylyProductListener = object : StorylyProductListener {
-            override fun storylyEvent(
+
+            override fun storylyAddToCartEvent(
                 storylyView: StorylyView,
-                event: StorylyEvent,
                 product: STRProductItem?,
-                extras: Map<String, String>
+                extras: Map<String, String>,
+                onSuccess: ((STRCart) -> Unit)?,
+                onFail: ((STRCartEventResult) -> Unit)?
             ) {
+                onSuccess?.invoke(
+                    STRCart(items = listOf(), totalPrice = 0f, oldTotalPrice = null, currency = "10$")
+                )
+                onFail?.invoke(STRCartEventResult("AddToCard Failed"))
+            }
+
+            override fun storylyEvent(storylyView: StorylyView, event: StorylyEvent) {
                 when (event){
-                    StorylyEvent.StoryAddToCartClicked ->{
-                        Log.d("Shopping", "StoryAddToCartClicked")
-                        Log.d("Shopping", "Product Details: ${product}")
-                        Log.d("Shopping", "Number of Product: ${extras}")
-                        // Write your addToCart method
-                    }
                     StorylyEvent.StoryGoToCartClicked -> {
                         Log.d("Shopping", "StoryGoToCartClicked")
-                        // Write your goToCart method
+                        //storylyView.dismiss()
                     }
                     StorylyEvent.StoryProductCatalogOpened -> {
                         Log.d("Shopping", "StoryProductCatalogOpened")
@@ -72,36 +96,15 @@ class MainActivity : AppCompatActivity() {
                 }
             }
 
+            //Storyly Hydration method
             override fun storylyHydration(storylyView: StorylyView, productIds: List<String>) {
                 Log.d("Shopping", "storylyHydration ${productIds}")
 
             }
         }
 
-        val externalData = mutableListOf<Map<String, Any?>>(
-            mapOf(
-                "{username}" to "John Doe",
-                "{e-mail}" to "john@email.com",
-            )
-        )
-        storylyView.setExternalData(externalData)
-
-        storylyView.setStoryGroupTextStyling(StoryGroupTextStyling(
-            //typeface = Typeface.MONOSPACE
-        ))
-
-        storylyView.setStoryGroupSize(StoryGroupSize.Large)
-        storylyView.setStoryGroupIconStyling(StoryGroupIconStyling(
-            200f,
-            200f,
-            100f
-        ))
-        //storylyView.setStoryInteractiveTextTypeface(Typeface.MONOSPACE)
-
-        storylyView.setStoryHeaderStyling(StoryHeaderStyling(
-            isTextVisible = true,
-            isIconVisible = true
-        ))
+        // Storyly Hydrate Products
+        storylyView.hydrateProducts(products)
 
         storylyView.storylyListener = object : StorylyListener {
             // Override event functions
@@ -145,11 +148,12 @@ class MainActivity : AppCompatActivity() {
                 Log.d("Storyly", "storyComponent:${storyComponent}")
             }
         }
-
     }
 }
 
-// We set product data manually but you can set it from your database.
+
+
+
 var products = listOf(
     STRProductItem(
         productId = "1",
