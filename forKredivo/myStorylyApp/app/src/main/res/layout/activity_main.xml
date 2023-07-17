@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="364dp"
+        android:layout_height="49dp"
+        android:src="@drawable/searchbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:layout_width="178dp"
+        android:layout_height="30dp"
+        android:src="@drawable/lovely_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.115"
+        tools:ignore="MissingConstraints" />
+
+
+    <com.appsamurai.storyly.StorylyView
+        android:id="@+id/storyly_view"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.189"
+        app:storyGroupIconBorderColorNotSeen="@array/notSeen"
+        app:storyGroupIconBorderColorSeen="@array/seen" />
+
+    <ImageView
+        android:layout_width="178dp"
+        android:layout_height="30dp"
+        android:src="@drawable/nev_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.33"
+        tools:ignore="MissingConstraints" />
+
+    <com.appsamurai.storyly.StorylyView
+        android:id="@+id/storyly_view_second"
+        android:layout_width="match_parent"
+        android:layout_height="244dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.547"
+        app:storyGroupIconBorderColorNotSeen="@array/notSeen1"
+        app:storyGroupIconBorderColorSeen="@array/notSeen1"
+        app:storyGroupIconCornerRadius="16dp"
+        app:storyGroupIconHeight="240dp"
+        app:storyGroupIconWidth="208dp"
+        app:storyGroupSize="custom"
+        app:storyGroupTextIsVisible="false" />
+
+    <ImageView
+        android:layout_width="178dp"
+        android:layout_height="30dp"
+        android:src="@drawable/special_1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.068"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.756"
+        tools:ignore="MissingConstraints" />
+
+    <com.appsamurai.storyly.StorylyView
+        android:id="@+id/storyly_view_third"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.882"
+        app:storyGroupIconBorderColorNotSeen="@array/notSeen1"
+        app:storyGroupIconBorderColorSeen="@array/notSeen1"
+        app:storyGroupIconCornerRadius="100dp"
+        app:storyGroupIconHeight="84dp"
+        app:storyGroupIconWidth="208dp"
+        app:storyGroupSize="custom"
+        app:storyGroupTextIsVisible="false" />
+
+    <ImageView
+        android:layout_width="402dp"
+        android:layout_height="76dp"
+        android:src="@drawable/navigation"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:storyGroupTextIsVisible="false"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
