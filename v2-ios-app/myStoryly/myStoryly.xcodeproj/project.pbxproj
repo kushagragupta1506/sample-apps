@@ -1,0 +1,767 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9171F0B529192F6600E77344 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9171F0B429192F6600E77344 /* AppDelegate.swift */; };
+		9171F0B729192F6600E77344 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9171F0B629192F6600E77344 /* SceneDelegate.swift */; };
+		9171F0B929192F6600E77344 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9171F0B829192F6600E77344 /* ViewController.swift */; };
+		9171F0BC29192F6600E77344 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9171F0BA29192F6600E77344 /* Main.storyboard */; };
+		9171F0BE29192F6700E77344 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9171F0BD29192F6700E77344 /* Assets.xcassets */; };
+		9171F0C129192F6700E77344 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9171F0BF29192F6700E77344 /* LaunchScreen.storyboard */; };
+		9171F0CC29192F6800E77344 /* myStorylyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9171F0CB29192F6800E77344 /* myStorylyTests.swift */; };
+		9171F0D629192F6800E77344 /* myStorylyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9171F0D529192F6800E77344 /* myStorylyUITests.swift */; };
+		9171F0D829192F6800E77344 /* myStorylyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9171F0D729192F6800E77344 /* myStorylyUITestsLaunchTests.swift */; };
+		9174EAC529597ACA006546F8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9174EAC429597ACA006546F8 /* SecondViewController.swift */; };
+		DD5CB8AA817CFE1BF2527F4B /* Pods_myStoryly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A33B6052483F6A0A50E08431 /* Pods_myStoryly.framework */; };
+		E27764026C274214DC7C0D1F /* Pods_myStoryly_myStorylyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB30BC938F67A730FCF8D48 /* Pods_myStoryly_myStorylyUITests.framework */; };
+		E6A89C0480610104AFB2800D /* Pods_myStorylyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C25E5ECB85BA33905BD5672E /* Pods_myStorylyTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9171F0C829192F6800E77344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9171F0A929192F6600E77344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9171F0B029192F6600E77344;
+			remoteInfo = myStoryly;
+		};
+		9171F0D229192F6800E77344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9171F0A929192F6600E77344 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9171F0B029192F6600E77344;
+			remoteInfo = myStoryly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4EB30BC938F67A730FCF8D48 /* Pods_myStoryly_myStorylyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myStoryly_myStorylyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C818062B01069C84411BD94 /* Pods-myStoryly-myStorylyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myStoryly-myStorylyUITests.debug.xcconfig"; path = "Target Support Files/Pods-myStoryly-myStorylyUITests/Pods-myStoryly-myStorylyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F02244BCE23404E1476BDE9 /* Pods-myStoryly-myStorylyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myStoryly-myStorylyUITests.release.xcconfig"; path = "Target Support Files/Pods-myStoryly-myStorylyUITests/Pods-myStoryly-myStorylyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9171F0B129192F6600E77344 /* myStoryly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myStoryly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9171F0B429192F6600E77344 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9171F0B629192F6600E77344 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9171F0B829192F6600E77344 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9171F0BB29192F6600E77344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9171F0BD29192F6700E77344 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9171F0C029192F6700E77344 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9171F0C229192F6700E77344 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9171F0C729192F6800E77344 /* myStorylyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myStorylyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9171F0CB29192F6800E77344 /* myStorylyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myStorylyTests.swift; sourceTree = "<group>"; };
+		9171F0D129192F6800E77344 /* myStorylyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myStorylyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9171F0D529192F6800E77344 /* myStorylyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myStorylyUITests.swift; sourceTree = "<group>"; };
+		9171F0D729192F6800E77344 /* myStorylyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myStorylyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9174EAC429597ACA006546F8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		9DBEA76DC21935154A1C605A /* Pods-myStoryly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myStoryly.debug.xcconfig"; path = "Target Support Files/Pods-myStoryly/Pods-myStoryly.debug.xcconfig"; sourceTree = "<group>"; };
+		9EB38B0CC248AAE67799D83B /* Pods-myStorylyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myStorylyTests.release.xcconfig"; path = "Target Support Files/Pods-myStorylyTests/Pods-myStorylyTests.release.xcconfig"; sourceTree = "<group>"; };
+		A33B6052483F6A0A50E08431 /* Pods_myStoryly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myStoryly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25E5ECB85BA33905BD5672E /* Pods_myStorylyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myStorylyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C94685D3B9CCD55C9C1C0E /* Pods-myStoryly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myStoryly.release.xcconfig"; path = "Target Support Files/Pods-myStoryly/Pods-myStoryly.release.xcconfig"; sourceTree = "<group>"; };
+		E96641E58FD79FC23CA4521A /* Pods-myStorylyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myStorylyTests.debug.xcconfig"; path = "Target Support Files/Pods-myStorylyTests/Pods-myStorylyTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9171F0AE29192F6600E77344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD5CB8AA817CFE1BF2527F4B /* Pods_myStoryly.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9171F0C429192F6800E77344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6A89C0480610104AFB2800D /* Pods_myStorylyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9171F0CE29192F6800E77344 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E27764026C274214DC7C0D1F /* Pods_myStoryly_myStorylyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CB7CB8FB55E7E3337F7F925 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A33B6052483F6A0A50E08431 /* Pods_myStoryly.framework */,
+				4EB30BC938F67A730FCF8D48 /* Pods_myStoryly_myStorylyUITests.framework */,
+				C25E5ECB85BA33905BD5672E /* Pods_myStorylyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9171F0A829192F6600E77344 = {
+			isa = PBXGroup;
+			children = (
+				9171F0B329192F6600E77344 /* myStoryly */,
+				9171F0CA29192F6800E77344 /* myStorylyTests */,
+				9171F0D429192F6800E77344 /* myStorylyUITests */,
+				9171F0B229192F6600E77344 /* Products */,
+				E437E673563A2C6E46D37A2C /* Pods */,
+				2CB7CB8FB55E7E3337F7F925 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9171F0B229192F6600E77344 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9171F0B129192F6600E77344 /* myStoryly.app */,
+				9171F0C729192F6800E77344 /* myStorylyTests.xctest */,
+				9171F0D129192F6800E77344 /* myStorylyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9171F0B329192F6600E77344 /* myStoryly */ = {
+			isa = PBXGroup;
+			children = (
+				9171F0B429192F6600E77344 /* AppDelegate.swift */,
+				9171F0B629192F6600E77344 /* SceneDelegate.swift */,
+				9171F0B829192F6600E77344 /* ViewController.swift */,
+				9174EAC429597ACA006546F8 /* SecondViewController.swift */,
+				9171F0BA29192F6600E77344 /* Main.storyboard */,
+				9171F0BD29192F6700E77344 /* Assets.xcassets */,
+				9171F0BF29192F6700E77344 /* LaunchScreen.storyboard */,
+				9171F0C229192F6700E77344 /* Info.plist */,
+			);
+			path = myStoryly;
+			sourceTree = "<group>";
+		};
+		9171F0CA29192F6800E77344 /* myStorylyTests */ = {
+			isa = PBXGroup;
+			children = (
+				9171F0CB29192F6800E77344 /* myStorylyTests.swift */,
+			);
+			path = myStorylyTests;
+			sourceTree = "<group>";
+		};
+		9171F0D429192F6800E77344 /* myStorylyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9171F0D529192F6800E77344 /* myStorylyUITests.swift */,
+				9171F0D729192F6800E77344 /* myStorylyUITestsLaunchTests.swift */,
+			);
+			path = myStorylyUITests;
+			sourceTree = "<group>";
+		};
+		E437E673563A2C6E46D37A2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DBEA76DC21935154A1C605A /* Pods-myStoryly.debug.xcconfig */,
+				D3C94685D3B9CCD55C9C1C0E /* Pods-myStoryly.release.xcconfig */,
+				8C818062B01069C84411BD94 /* Pods-myStoryly-myStorylyUITests.debug.xcconfig */,
+				8F02244BCE23404E1476BDE9 /* Pods-myStoryly-myStorylyUITests.release.xcconfig */,
+				E96641E58FD79FC23CA4521A /* Pods-myStorylyTests.debug.xcconfig */,
+				9EB38B0CC248AAE67799D83B /* Pods-myStorylyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9171F0B029192F6600E77344 /* myStoryly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9171F0DB29192F6800E77344 /* Build configuration list for PBXNativeTarget "myStoryly" */;
+			buildPhases = (
+				55A75988C678999D67B4CA75 /* [CP] Check Pods Manifest.lock */,
+				9171F0AD29192F6600E77344 /* Sources */,
+				9171F0AE29192F6600E77344 /* Frameworks */,
+				9171F0AF29192F6600E77344 /* Resources */,
+				E8BF69A80E9B7F10EC86DDB8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myStoryly;
+			productName = myStoryly;
+			productReference = 9171F0B129192F6600E77344 /* myStoryly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9171F0C629192F6800E77344 /* myStorylyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9171F0DE29192F6800E77344 /* Build configuration list for PBXNativeTarget "myStorylyTests" */;
+			buildPhases = (
+				D968CD95D5CE6D78AB6EF337 /* [CP] Check Pods Manifest.lock */,
+				9171F0C329192F6800E77344 /* Sources */,
+				9171F0C429192F6800E77344 /* Frameworks */,
+				9171F0C529192F6800E77344 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9171F0C929192F6800E77344 /* PBXTargetDependency */,
+			);
+			name = myStorylyTests;
+			productName = myStorylyTests;
+			productReference = 9171F0C729192F6800E77344 /* myStorylyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9171F0D029192F6800E77344 /* myStorylyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9171F0E129192F6800E77344 /* Build configuration list for PBXNativeTarget "myStorylyUITests" */;
+			buildPhases = (
+				EF0B01449BA8FA5C27CDB3B9 /* [CP] Check Pods Manifest.lock */,
+				9171F0CD29192F6800E77344 /* Sources */,
+				9171F0CE29192F6800E77344 /* Frameworks */,
+				9171F0CF29192F6800E77344 /* Resources */,
+				42832E0746890F47F484095C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9171F0D329192F6800E77344 /* PBXTargetDependency */,
+			);
+			name = myStorylyUITests;
+			productName = myStorylyUITests;
+			productReference = 9171F0D129192F6800E77344 /* myStorylyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9171F0A929192F6600E77344 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					9171F0B029192F6600E77344 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					9171F0C629192F6800E77344 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 9171F0B029192F6600E77344;
+					};
+					9171F0D029192F6800E77344 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 9171F0B029192F6600E77344;
+					};
+				};
+			};
+			buildConfigurationList = 9171F0AC29192F6600E77344 /* Build configuration list for PBXProject "myStoryly" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9171F0A829192F6600E77344;
+			productRefGroup = 9171F0B229192F6600E77344 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9171F0B029192F6600E77344 /* myStoryly */,
+				9171F0C629192F6800E77344 /* myStorylyTests */,
+				9171F0D029192F6800E77344 /* myStorylyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9171F0AF29192F6600E77344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9171F0C129192F6700E77344 /* LaunchScreen.storyboard in Resources */,
+				9171F0BE29192F6700E77344 /* Assets.xcassets in Resources */,
+				9171F0BC29192F6600E77344 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9171F0C529192F6800E77344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9171F0CF29192F6800E77344 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42832E0746890F47F484095C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-myStoryly-myStorylyUITests/Pods-myStoryly-myStorylyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-myStoryly-myStorylyUITests/Pods-myStoryly-myStorylyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-myStoryly-myStorylyUITests/Pods-myStoryly-myStorylyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55A75988C678999D67B4CA75 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myStoryly-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D968CD95D5CE6D78AB6EF337 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myStorylyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8BF69A80E9B7F10EC86DDB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-myStoryly/Pods-myStoryly-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-myStoryly/Pods-myStoryly-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-myStoryly/Pods-myStoryly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF0B01449BA8FA5C27CDB3B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myStoryly-myStorylyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9171F0AD29192F6600E77344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9174EAC529597ACA006546F8 /* SecondViewController.swift in Sources */,
+				9171F0B929192F6600E77344 /* ViewController.swift in Sources */,
+				9171F0B529192F6600E77344 /* AppDelegate.swift in Sources */,
+				9171F0B729192F6600E77344 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9171F0C329192F6800E77344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9171F0CC29192F6800E77344 /* myStorylyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9171F0CD29192F6800E77344 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9171F0D629192F6800E77344 /* myStorylyUITests.swift in Sources */,
+				9171F0D829192F6800E77344 /* myStorylyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9171F0C929192F6800E77344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9171F0B029192F6600E77344 /* myStoryly */;
+			targetProxy = 9171F0C829192F6800E77344 /* PBXContainerItemProxy */;
+		};
+		9171F0D329192F6800E77344 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9171F0B029192F6600E77344 /* myStoryly */;
+			targetProxy = 9171F0D229192F6800E77344 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9171F0BA29192F6600E77344 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9171F0BB29192F6600E77344 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9171F0BF29192F6700E77344 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9171F0C029192F6700E77344 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9171F0D929192F6800E77344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9171F0DA29192F6800E77344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9171F0DC29192F6800E77344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DBEA76DC21935154A1C605A /* Pods-myStoryly.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UMNVA79ATQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = myStoryly/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myStoryly.app.myStoryly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9171F0DD29192F6800E77344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3C94685D3B9CCD55C9C1C0E /* Pods-myStoryly.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UMNVA79ATQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = myStoryly/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myStoryly.app.myStoryly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9171F0DF29192F6800E77344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E96641E58FD79FC23CA4521A /* Pods-myStorylyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UMNVA79ATQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myStoryly.app.myStorylyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myStoryly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/myStoryly";
+			};
+			name = Debug;
+		};
+		9171F0E029192F6800E77344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EB38B0CC248AAE67799D83B /* Pods-myStorylyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UMNVA79ATQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myStoryly.app.myStorylyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myStoryly.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/myStoryly";
+			};
+			name = Release;
+		};
+		9171F0E229192F6800E77344 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C818062B01069C84411BD94 /* Pods-myStoryly-myStorylyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UMNVA79ATQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myStoryly.app.myStorylyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = myStoryly;
+			};
+			name = Debug;
+		};
+		9171F0E329192F6800E77344 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F02244BCE23404E1476BDE9 /* Pods-myStoryly-myStorylyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UMNVA79ATQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myStoryly.app.myStorylyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = myStoryly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9171F0AC29192F6600E77344 /* Build configuration list for PBXProject "myStoryly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9171F0D929192F6800E77344 /* Debug */,
+				9171F0DA29192F6800E77344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9171F0DB29192F6800E77344 /* Build configuration list for PBXNativeTarget "myStoryly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9171F0DC29192F6800E77344 /* Debug */,
+				9171F0DD29192F6800E77344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9171F0DE29192F6800E77344 /* Build configuration list for PBXNativeTarget "myStorylyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9171F0DF29192F6800E77344 /* Debug */,
+				9171F0E029192F6800E77344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9171F0E129192F6800E77344 /* Build configuration list for PBXNativeTarget "myStorylyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9171F0E229192F6800E77344 /* Debug */,
+				9171F0E329192F6800E77344 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9171F0A929192F6600E77344 /* Project object */;
+}
