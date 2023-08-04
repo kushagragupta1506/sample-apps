@@ -8,9 +8,10 @@
 
     <com.appsamurai.storyly.StorylyView
         android:id="@+id/storyly_view"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        tools:ignore="MissingConstraints" />
+        android:layout_width="120dp"
+        android:layout_height="175dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="71dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
