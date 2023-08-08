@@ -990,6 +990,7 @@ SWIFT_CLASS_NAMED("StorylyConfig")
 @class StorylyStoryGroupStyling;
 enum StorylyLayoutDirection : NSInteger;
 @class StorylyProductConfig;
+@class StorylyShareConfig;
 
 /// Builder class of StorylyConfig
 SWIFT_CLASS_NAMED("Builder")
@@ -1014,9 +1015,6 @@ SWIFT_CLASS_NAMED("Builder")
 /// \param direction StorylyLayoutDirection instance to set 
 ///
 - (StorylyConfigBuilder * _Nonnull)setLayoutDirectionWithDirection:(enum StorylyLayoutDirection)direction SWIFT_WARN_UNUSED_RESULT;
-/// This function allows you to customize share url
-/// * - parameter url String instance to set
-- (StorylyConfigBuilder * _Nonnull)setShareUrlWithUrl:(NSString * _Nonnull)url SWIFT_WARN_UNUSED_RESULT;
 /// This function allows you to set custom parameter for analytical purposes
 /// \param parameter String? instance to set 
 ///
@@ -1041,6 +1039,10 @@ SWIFT_CLASS_NAMED("Builder")
 /// \param config StorylyProductConfig instance to set 
 ///
 - (StorylyConfigBuilder * _Nonnull)setProductConfigWithConfig:(StorylyProductConfig * _Nonnull)config SWIFT_WARN_UNUSED_RESULT;
+/// This function allows you to set StorylyShareConfig.
+/// \param config StorylyShareConfig instance to set 
+///
+- (StorylyConfigBuilder * _Nonnull)setShareConfigWithConfig:(StorylyShareConfig * _Nonnull)config SWIFT_WARN_UNUSED_RESULT;
 /// This function builds StorylyConfig with the current properties
 ///
 /// returns:
@@ -1470,6 +1472,33 @@ SWIFT_PROTOCOL_NAMED("StorylyProductDelegate")
 /// \param onFail It represents a callback function that will be executed if the “update cart” operation fails
 ///
 - (void)storylyUpdateCartEventWithStorylyView:(StorylyView * _Nonnull)storylyView event:(enum StorylyEvent)event cart:(STRCart * _Nullable)cart change:(STRCartItem * _Nullable)change onSuccess:(void (^ _Nullable)(STRCart * _Nonnull))onSuccess onFail:(void (^ _Nullable)(STRCartEventResult * _Nonnull))onFail;
+@end
+
+
+/// This class holds the configuration information of StorylyShareConfig
+SWIFT_CLASS_NAMED("StorylyShareConfig")
+@interface StorylyShareConfig : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+/// Builder class of StorylyShareConfig
+SWIFT_CLASS_NAMED("Builder")
+@interface StorylyShareConfigBuilder : NSObject
+/// This function allows you to customize share url
+/// * - parameter url String instance to set
+- (StorylyShareConfigBuilder * _Nonnull)setShareUrlWithUrl:(NSString * _Nonnull)url SWIFT_WARN_UNUSED_RESULT;
+/// This function allows you to set Facebook app id to be used in Instagram share to stories .
+/// \param id AppID from your meta development account 
+///
+- (StorylyShareConfigBuilder * _Nonnull)setFacebookAppIDWithId:(NSString * _Nonnull)id SWIFT_WARN_UNUSED_RESULT;
+/// This function builds StorylyShareConfig with the current properties
+///
+/// returns:
+/// StorylyShareConfig instance
+- (StorylyShareConfig * _Nonnull)build SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -2703,6 +2732,7 @@ SWIFT_CLASS_NAMED("StorylyConfig")
 @class StorylyStoryGroupStyling;
 enum StorylyLayoutDirection : NSInteger;
 @class StorylyProductConfig;
+@class StorylyShareConfig;
 
 /// Builder class of StorylyConfig
 SWIFT_CLASS_NAMED("Builder")
@@ -2727,9 +2757,6 @@ SWIFT_CLASS_NAMED("Builder")
 /// \param direction StorylyLayoutDirection instance to set 
 ///
 - (StorylyConfigBuilder * _Nonnull)setLayoutDirectionWithDirection:(enum StorylyLayoutDirection)direction SWIFT_WARN_UNUSED_RESULT;
-/// This function allows you to customize share url
-/// * - parameter url String instance to set
-- (StorylyConfigBuilder * _Nonnull)setShareUrlWithUrl:(NSString * _Nonnull)url SWIFT_WARN_UNUSED_RESULT;
 /// This function allows you to set custom parameter for analytical purposes
 /// \param parameter String? instance to set 
 ///
@@ -2754,6 +2781,10 @@ SWIFT_CLASS_NAMED("Builder")
 /// \param config StorylyProductConfig instance to set 
 ///
 - (StorylyConfigBuilder * _Nonnull)setProductConfigWithConfig:(StorylyProductConfig * _Nonnull)config SWIFT_WARN_UNUSED_RESULT;
+/// This function allows you to set StorylyShareConfig.
+/// \param config StorylyShareConfig instance to set 
+///
+- (StorylyConfigBuilder * _Nonnull)setShareConfigWithConfig:(StorylyShareConfig * _Nonnull)config SWIFT_WARN_UNUSED_RESULT;
 /// This function builds StorylyConfig with the current properties
 ///
 /// returns:
@@ -3183,6 +3214,33 @@ SWIFT_PROTOCOL_NAMED("StorylyProductDelegate")
 /// \param onFail It represents a callback function that will be executed if the “update cart” operation fails
 ///
 - (void)storylyUpdateCartEventWithStorylyView:(StorylyView * _Nonnull)storylyView event:(enum StorylyEvent)event cart:(STRCart * _Nullable)cart change:(STRCartItem * _Nullable)change onSuccess:(void (^ _Nullable)(STRCart * _Nonnull))onSuccess onFail:(void (^ _Nullable)(STRCartEventResult * _Nonnull))onFail;
+@end
+
+
+/// This class holds the configuration information of StorylyShareConfig
+SWIFT_CLASS_NAMED("StorylyShareConfig")
+@interface StorylyShareConfig : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+/// Builder class of StorylyShareConfig
+SWIFT_CLASS_NAMED("Builder")
+@interface StorylyShareConfigBuilder : NSObject
+/// This function allows you to customize share url
+/// * - parameter url String instance to set
+- (StorylyShareConfigBuilder * _Nonnull)setShareUrlWithUrl:(NSString * _Nonnull)url SWIFT_WARN_UNUSED_RESULT;
+/// This function allows you to set Facebook app id to be used in Instagram share to stories .
+/// \param id AppID from your meta development account 
+///
+- (StorylyShareConfigBuilder * _Nonnull)setFacebookAppIDWithId:(NSString * _Nonnull)id SWIFT_WARN_UNUSED_RESULT;
+/// This function builds StorylyShareConfig with the current properties
+///
+/// returns:
+/// StorylyShareConfig instance
+- (StorylyShareConfig * _Nonnull)build SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
@@ -4416,6 +4474,7 @@ SWIFT_CLASS_NAMED("StorylyConfig")
 @class StorylyStoryGroupStyling;
 enum StorylyLayoutDirection : NSInteger;
 @class StorylyProductConfig;
+@class StorylyShareConfig;
 
 /// Builder class of StorylyConfig
 SWIFT_CLASS_NAMED("Builder")
@@ -4440,9 +4499,6 @@ SWIFT_CLASS_NAMED("Builder")
 /// \param direction StorylyLayoutDirection instance to set 
 ///
 - (StorylyConfigBuilder * _Nonnull)setLayoutDirectionWithDirection:(enum StorylyLayoutDirection)direction SWIFT_WARN_UNUSED_RESULT;
-/// This function allows you to customize share url
-/// * - parameter url String instance to set
-- (StorylyConfigBuilder * _Nonnull)setShareUrlWithUrl:(NSString * _Nonnull)url SWIFT_WARN_UNUSED_RESULT;
 /// This function allows you to set custom parameter for analytical purposes
 /// \param parameter String? instance to set 
 ///
@@ -4467,6 +4523,10 @@ SWIFT_CLASS_NAMED("Builder")
 /// \param config StorylyProductConfig instance to set 
 ///
 - (StorylyConfigBuilder * _Nonnull)setProductConfigWithConfig:(StorylyProductConfig * _Nonnull)config SWIFT_WARN_UNUSED_RESULT;
+/// This function allows you to set StorylyShareConfig.
+/// \param config StorylyShareConfig instance to set 
+///
+- (StorylyConfigBuilder * _Nonnull)setShareConfigWithConfig:(StorylyShareConfig * _Nonnull)config SWIFT_WARN_UNUSED_RESULT;
 /// This function builds StorylyConfig with the current properties
 ///
 /// returns:
@@ -4896,6 +4956,33 @@ SWIFT_PROTOCOL_NAMED("StorylyProductDelegate")
 /// \param onFail It represents a callback function that will be executed if the “update cart” operation fails
 ///
 - (void)storylyUpdateCartEventWithStorylyView:(StorylyView * _Nonnull)storylyView event:(enum StorylyEvent)event cart:(STRCart * _Nullable)cart change:(STRCartItem * _Nullable)change onSuccess:(void (^ _Nullable)(STRCart * _Nonnull))onSuccess onFail:(void (^ _Nullable)(STRCartEventResult * _Nonnull))onFail;
+@end
+
+
+/// This class holds the configuration information of StorylyShareConfig
+SWIFT_CLASS_NAMED("StorylyShareConfig")
+@interface StorylyShareConfig : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+/// Builder class of StorylyShareConfig
+SWIFT_CLASS_NAMED("Builder")
+@interface StorylyShareConfigBuilder : NSObject
+/// This function allows you to customize share url
+/// * - parameter url String instance to set
+- (StorylyShareConfigBuilder * _Nonnull)setShareUrlWithUrl:(NSString * _Nonnull)url SWIFT_WARN_UNUSED_RESULT;
+/// This function allows you to set Facebook app id to be used in Instagram share to stories .
+/// \param id AppID from your meta development account 
+///
+- (StorylyShareConfigBuilder * _Nonnull)setFacebookAppIDWithId:(NSString * _Nonnull)id SWIFT_WARN_UNUSED_RESULT;
+/// This function builds StorylyShareConfig with the current properties
+///
+/// returns:
+/// StorylyShareConfig instance
+- (StorylyShareConfig * _Nonnull)build SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 

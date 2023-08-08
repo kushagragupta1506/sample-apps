@@ -151,13 +151,13 @@ extension Storyly.StorylyView {
     @objc public func setMomentsStyling(styling: Storyly.StorylyMomentsStyling) -> Storyly.StorylyConfig.Builder
     @objc public func setStoryGroupStyling(styling: Storyly.StorylyStoryGroupStyling) -> Storyly.StorylyConfig.Builder
     @objc public func setLayoutDirection(direction: Storyly.StorylyLayoutDirection) -> Storyly.StorylyConfig.Builder
-    @objc public func setShareUrl(url: Swift.String) -> Storyly.StorylyConfig.Builder
     @objc public func setCustomParameter(parameter: Swift.String?) -> Storyly.StorylyConfig.Builder
     @objc public func setLabels(labels: Swift.Set<Swift.String>?) -> Storyly.StorylyConfig.Builder
     @objc public func setUserData(data: [Swift.String : Swift.String]) -> Storyly.StorylyConfig.Builder
     @objc public func setStorylyPayload(payload: Swift.String?) -> Storyly.StorylyConfig.Builder
     @objc public func setTestMode(isTest: Swift.Bool) -> Storyly.StorylyConfig.Builder
     @objc public func setProductConfig(config: Storyly.StorylyProductConfig) -> Storyly.StorylyConfig.Builder
+    @objc public func setShareConfig(config: Storyly.StorylyShareConfig) -> Storyly.StorylyConfig.Builder
     @objc public func build() -> Storyly.StorylyConfig
     @objc override dynamic public init()
     @objc deinit
@@ -232,6 +232,16 @@ extension Storyly.StorylyView {
   @objc func resume()
   @objc func setLayers(layers: [Swift.String : UIKit.UIView])
   @objc func checkHit(touch: UIKit.UITouch) -> Swift.Bool
+}
+@_hasMissingDesignatedInitializers @objc(StorylyShareConfig) public class StorylyShareConfig : ObjectiveC.NSObject {
+  @objc(StorylyShareConfigBuilder) public class Builder : ObjectiveC.NSObject {
+    @objc public func setShareUrl(url: Swift.String) -> Storyly.StorylyShareConfig.Builder
+    @objc public func setFacebookAppID(id: Swift.String) -> Storyly.StorylyShareConfig.Builder
+    @objc public func build() -> Storyly.StorylyShareConfig
+    @objc override dynamic public init()
+    @objc deinit
+  }
+  @objc deinit
 }
 @objc(StorylyDelegate) public protocol StorylyDelegate {
   @available(*, unavailable, message: "This function is removed in v1.18.0; please use the storylyLoaded with dataSource parameter")

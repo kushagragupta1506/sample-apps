@@ -10,7 +10,7 @@ import Storyly
 
 class ViewController: UIViewController {
     
-    let STORYLY_INSTANCE_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NfaWQiOjM1NzQsImFwcF9pZCI6Njk3NSwiaW5zX2lkIjo3MjIzfQ.N3lyKBjtEYroXSnSe5Wl93CpLMv1G_pmRa-k1K-CgHM"
+    let STORYLY_INSTANCE_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NfaWQiOjcxMzcsImFwcF9pZCI6MTE3NDYsImluc19pZCI6MTI1ODJ9.k7IVUbx4b23WTobh7u-ZIAYMdjN1xIDyA8z5WWncWbU"
     
     let userPropertiesData = [
         "first_name" : "John",
@@ -36,7 +36,7 @@ class ViewController: UIViewController {
             config: StorylyConfig.Builder()
                            .setStoryGroupStyling(
                                styling: StorylyStoryGroupStyling.Builder()
-                                   .setSize(size: .Custom)
+                                   .setSize(size: .Large)
                                    .setIconHeight(height: 110)
                                    .setIconWidth(width: 160)
                                    .setIconCornerRadius(radius: 12)
