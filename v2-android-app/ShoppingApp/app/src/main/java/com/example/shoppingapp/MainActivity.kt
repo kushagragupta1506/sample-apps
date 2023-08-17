@@ -26,14 +26,14 @@ class MainActivity : AppCompatActivity() {
         val storylyView = findViewById<StorylyView>(R.id.storyly_view)
 
         storylyView.storylyInit = StorylyInit(
-            "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NfaWQiOjcxMzcsImFwcF9pZCI6MTMxMTUsImluc19pZCI6MTc5ODZ9.jf8hLmrRQ7mhDDlP2psDMutfFXM0Ib3eqaeDWEIsbg0",
+            "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NfaWQiOjcxMzcsImFwcF9pZCI6MTE3NDYsImluc19pZCI6MTI1ODJ9.k7IVUbx4b23WTobh7u-ZIAYMdjN1xIDyA8z5WWncWbU",
             StorylyConfig.Builder()
                 .setStoryGroupStyling(
                     StorylyStoryGroupStyling.Builder()
                         .setIconHeight(350)
                         .setIconWidth(275)
                         .setIconCornerRadius(30)
-                        .setSize(StoryGroupSize.Custom)
+                        .setSize(StoryGroupSize.Large)
                         .build()
                 )
                 .build()
@@ -53,7 +53,7 @@ class MainActivity : AppCompatActivity() {
                     )
                 }
 
-                storylyView.dismiss(animationResId = 1)
+                //storylyView.dismiss(animationResId = 1)
 
 
                 /*val goSecondPage = Intent(applicationContext, MainActivity2::class.java)

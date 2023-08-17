@@ -60,6 +60,8 @@ const CustomPortraitView = ({ storyGroup }) => {
    )
 }
 
+//You can add/change your labels according to your use cases. Then you can re-init Storyly when "Labels" is change to real time setting.
+const Labels = ['newUser', 'goldMember']
 
 
 export default class App extends Component {
@@ -76,6 +78,7 @@ export default class App extends Component {
                        height: convertToNative(100),
                        customView: CustomPortraitView
                    }}
+                    storylySegments= {Labels}
                     onLoad={loadEvent => {
                         console.log(`[Storyly] onLoad`);
                     }}
@@ -101,6 +104,7 @@ export default class App extends Component {
                         console.log(`[Storyly] onStoryUserInteracted ${JSON.stringify(interactionEvent)}`);
                     }}/>
                 <Button
+                    //You can use refresh() method when "Labels" is change to real time setting.
                     onPress={() => { this.storyly.refresh(); }}
                     title="Refresh"
                 />
