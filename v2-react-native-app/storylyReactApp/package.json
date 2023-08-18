@@ -13,7 +13,7 @@
     "react": "17.0.2",
     "react-native": "0.66.5",
     "storyly-moments-react-native": "^0.3.0",
-    "storyly-react-native": "2.0.1"
+    "storyly-react-native": "2.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.2",

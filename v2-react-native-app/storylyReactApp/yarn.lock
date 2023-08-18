@@ -5978,10 +5978,10 @@ storyly-moments-react-native@^0.3.0:
   resolved "https://registry.npmjs.org/storyly-moments-react-native/-/storyly-moments-react-native-0.3.0.tgz"
   integrity sha512-laipl47liLPCEpCmzDaiM178KevtNccGJ0Lj41QCUq4TUba7onS1PcepE2HSjxRympJdgHSHoVh+81IgJ1Lp0g==
 
-storyly-react-native@2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/storyly-react-native/-/storyly-react-native-2.0.1.tgz#45f9b1db56883cef97996772338287f026ae7160"
-  integrity sha512-UFJBNjrpcrOyC2lpDv/+Bz48PjST10AlnlZbqrN7TrPf2bDpKQ3LwWYU3QiGBXa6yoFXMEuR6NSc/vg1rKynRg==
+storyly-react-native@2.1.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/storyly-react-native/-/storyly-react-native-2.1.0.tgz#97e9a19c09fe891932b75c2d61477cde6b465aba"
+  integrity sha512-8TCSSikj1y4UT+cYrBorpZiNQ6iUXCJqsC5uSAZ3kYWpH5mk0TE4XNj6H8cDIR1noWH5OZSzfnPw1po9awyWaQ==
   dependencies:
     prop-types "^15.8.1"
 
