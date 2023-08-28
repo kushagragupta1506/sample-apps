@@ -10,7 +10,7 @@ import Storyly
 
 class ViewController: UIViewController {
     
-    let STORYLY_INSTANCE_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NfaWQiOjEwMzIwLCJhcHBfaWQiOjE1NTEzLCJpbnNfaWQiOjE3MDA5fQ.kUjITVA7Z-xTTHJ0uK5nmzgyoRPfAHW6ceSBtVDHy0s"
+    let STORYLY_INSTANCE_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NfaWQiOjEwNzQ4LCJhcHBfaWQiOjE2MTc5LCJpbnNfaWQiOjE3NzU2fQ.ghy1FdeIotPDAfa3QpIVwDTRkH64aun7W121KuJrQOc"
     
     let userPropertiesData = [
         "first_name" : "John",
@@ -42,7 +42,7 @@ class ViewController: UIViewController {
                                    .setIconCornerRadius(radius: 12)
                                    .build()
                             )
-                           .setLabels(labels: Set(arrayLiteral: "es"))
+                           .setLabels(labels: Set(arrayLiteral: "es", "turkey", "french", "germany", "staging", "gender-f","active", "de" ))
                            .setTestMode(isTest: true)
                             .build()
         )
