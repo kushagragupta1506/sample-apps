@@ -36,9 +36,9 @@ class MainActivity : AppCompatActivity() {
                         .setSize(StoryGroupSize.Large)
                         .build()
                 )
+                .setLabels(labels = setOf("en", "turkey"))
                 .build()
         )
-
         storylyView.storylyListener = object : StorylyListener {
             var initialLoad = true
 
