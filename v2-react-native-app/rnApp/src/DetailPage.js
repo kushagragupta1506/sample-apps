@@ -1,3 +1,4 @@
+import { useNavigation } from '@react-navigation/native';
 import React, { useState, useEffect } from 'react';
 import {
   Alert, UIManager,
@@ -14,7 +15,7 @@ import {
 
 
 const DetailPage = ({ route }) => {
-  
+  const navigation = useNavigation()
   return (
     <SafeAreaView>
         <View
@@ -44,9 +45,10 @@ const DetailPage = ({ route }) => {
               navigation.navigate('Details');
               
             }}*/
-            onPress={story => { Linking.openURL(story.media.actionUrl)
+            onPress={story => { 
               console.log("[Storyly] onPress--->", story); 
               this.customStoryly.close()
+              navigation.navigate("test")
             }}
             onEvent={eventPayload => { console.log("[Storyly] onEvent"); }}
             onStoryOpenFailed = {(onStoryOpenFailed) => console.log("openStoryFailed")}

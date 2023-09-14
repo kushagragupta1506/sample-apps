@@ -14,7 +14,7 @@ import {
 
 import { Storyly } from 'storyly-react-native';
 
-import PushNotificationIOS from '@react-native-community/push-notification-ios';
+// import PushNotificationIOS from '@react-native-community/push-notification-ios';
 
 const HEIGHT = 100;
 const PADDING_TOP = 10;
@@ -51,40 +51,40 @@ const MainPage = () => {
     }).start();
   }
   
-  useEffect(() => {
-    PushNotificationIOS.addEventListener('register', onRegistered);
-    PushNotificationIOS.addEventListener(
-      'registrationError',
-      onRegistrationError,
-    );
-    PushNotificationIOS.addEventListener('notification', onRemoteNotification);
-    PushNotificationIOS.addEventListener(
-      'localNotification',
-      onLocalNotification,
-    );
+  // useEffect(() => {
+  //   PushNotificationIOS.addEventListener('register', onRegistered);
+  //   PushNotificationIOS.addEventListener(
+  //     'registrationError',
+  //     onRegistrationError,
+  //   );
+  //   PushNotificationIOS.addEventListener('notification', onRemoteNotification);
+  //   PushNotificationIOS.addEventListener(
+  //     'localNotification',
+  //     onLocalNotification,
+  //   );
 
-    PushNotificationIOS.requestPermissions({
-      alert: true,
-      badge: true,
-      sound: true,
-      critical: true,
-    }).then(
-      (data) => {
-        console.log('PushNotificationIOS.requestPermissions', data);
-      },
-      (data) => {
-        console.log('PushNotificationIOS.requestPermissions failed', data);
-      },
-    );
+  //   PushNotificationIOS.requestPermissions({
+  //     alert: true,
+  //     badge: true,
+  //     sound: true,
+  //     critical: true,
+  //   }).then(
+  //     (data) => {
+  //       console.log('PushNotificationIOS.requestPermissions', data);
+  //     },
+  //     (data) => {
+  //       console.log('PushNotificationIOS.requestPermissions failed', data);
+  //     },
+  //   );
 
-    return () => {
-      PushNotificationIOS.removeEventListener('register');
-      PushNotificationIOS.removeEventListener('registrationError');
-      PushNotificationIOS.removeEventListener('notification');
-      PushNotificationIOS.removeEventListener('localNotification');
-    };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  //   return () => {
+  //     PushNotificationIOS.removeEventListener('register');
+  //     PushNotificationIOS.removeEventListener('registrationError');
+  //     PushNotificationIOS.removeEventListener('notification');
+  //     PushNotificationIOS.removeEventListener('localNotification');
+  //   };
+  //   // eslint-disable-next-line react-hooks/exhaustive-deps
+  // }, []);
 
   const sendNotification = () => {
     DeviceEventEmitter.emit('remoteNotificationReceived', {

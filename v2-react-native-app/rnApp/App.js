@@ -16,8 +16,9 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { Storyly,close } from 'storyly-react-native';
 import DetailPage from './src/DetailPage';
+import test from './src/test';
 
-import PushNotificationIOS from '@react-native-community/push-notification-ios';
+// import PushNotificationIOS from '@react-native-community/push-notification-ios';
 
 function HomeScreen({ navigation }) {
 
@@ -55,42 +56,42 @@ function HomeScreen({ navigation }) {
     }).start();
   }
   
-  useEffect(() => {
-   /* PushNotificationIOS.addEventListener('register', onRegistered);
-    PushNotificationIOS.addEventListener(
-      'registrationError',
-      onRegistrationError,
-    );*/ // 'Registered For Remote Push' onRegistered ve onRegistrationError fonksyionları aşağıda yorum satırında
+  // useEffect(() => {
+  //  /* PushNotificationIOS.addEventListener('register', onRegistered);
+  //   PushNotificationIOS.addEventListener(
+  //     'registrationError',
+  //     onRegistrationError,
+  //   );*/ // 'Registered For Remote Push' onRegistered ve onRegistrationError fonksyionları aşağıda yorum satırında
 
 
-   PushNotificationIOS.addEventListener('notification', onRemoteNotification);
-    PushNotificationIOS.addEventListener(
-      'localNotification',
-      onLocalNotification,
-    ); 
+  //  PushNotificationIOS.addEventListener('notification', onRemoteNotification);
+  //   PushNotificationIOS.addEventListener(
+  //     'localNotification',
+  //     onLocalNotification,
+  //   ); 
 
-    PushNotificationIOS.requestPermissions({
-      alert: true,
-      badge: true,
-      sound: true,
-      critical: true,
-    }).then(
-      (data) => {
-        console.log('PushNotificationIOS.requestPermissions', data);
-      },
-      (data) => {
-        console.log('PushNotificationIOS.requestPermissions failed', data);
-      },
-    );
+  //   PushNotificationIOS.requestPermissions({
+  //     alert: true,
+  //     badge: true,
+  //     sound: true,
+  //     critical: true,
+  //   }).then(
+  //     (data) => {
+  //       console.log('PushNotificationIOS.requestPermissions', data);
+  //     },
+  //     (data) => {
+  //       console.log('PushNotificationIOS.requestPermissions failed', data);
+  //     },
+  //   );
 
-    return () => {
-      PushNotificationIOS.removeEventListener('register');
-      PushNotificationIOS.removeEventListener('registrationError');
-      PushNotificationIOS.removeEventListener('notification');
-      PushNotificationIOS.removeEventListener('localNotification');
-    };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  //   return () => {
+  //     PushNotificationIOS.removeEventListener('register');
+  //     PushNotificationIOS.removeEventListener('registrationError');
+  //     PushNotificationIOS.removeEventListener('notification');
+  //     PushNotificationIOS.removeEventListener('localNotification');
+  //   };
+  //   // eslint-disable-next-line react-hooks/exhaustive-deps
+  // }, []);
 
   const sendNotification = () => {
     DeviceEventEmitter.emit('remoteNotificationReceived', {
@@ -431,6 +432,8 @@ function App() {
       <Stack.Navigator initialRouteName="Home">
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Details" component={DetailPage} />
+        <Stack.Screen name="test" component={test} />
+
       </Stack.Navigator>
     </NavigationContainer>
   );
