@@ -327,7 +327,7 @@ extension Storyly.StorylyView {
     @objc(setHeaderIconBorderColor:) public func setHeaderIconBorderColor(colors: [UIKit.UIColor]) -> Storyly.StorylyStoryStyling.Builder
     @objc(setTitleColor:) public func setTitleColor(color: UIKit.UIColor) -> Storyly.StorylyStoryStyling.Builder
     @objc(setTitleFont:) public func setTitleFont(font: UIKit.UIFont) -> Storyly.StorylyStoryStyling.Builder
-    @objc(setInteractiveFont:) public func setInteractiveFont(font: UIKit.UIFont) -> Storyly.StorylyStoryStyling.Builder
+    @objc(setInteractiveFont:) public func setInteractiveFont(font: UIKit.UIFont?) -> Storyly.StorylyStoryStyling.Builder
     @objc(setProgressBarColor:) public func setProgressBarColor(colors: [UIKit.UIColor]) -> Storyly.StorylyStoryStyling.Builder
     @objc(setTitleVisibility:) public func setTitleVisibility(isVisible: Swift.Bool) -> Storyly.StorylyStoryStyling.Builder
     @objc(setHeaderIconVisibility:) public func setHeaderIconVisibility(isVisible: Swift.Bool) -> Storyly.StorylyStoryStyling.Builder
@@ -403,6 +403,7 @@ extension Storyly.StorylyView {
   case Image
   case Video
   case LongVideo
+  case Live
   case Ad
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
@@ -602,6 +603,7 @@ extension Storyly.StorylyView {
   case Ad
   case MomentsDefault
   case MomentsBlock
+  case Live
   public init(from decoder: Swift.Decoder) throws
   public var description: Swift.String {
     get

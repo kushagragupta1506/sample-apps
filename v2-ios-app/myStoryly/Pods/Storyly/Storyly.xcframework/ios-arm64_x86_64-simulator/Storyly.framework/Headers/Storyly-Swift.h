@@ -713,6 +713,8 @@ typedef SWIFT_ENUM_NAMED(NSInteger, StoryGroupType, "StoryGroupType", open) {
   StoryGroupTypeMomentsDefault = 2,
 /// Denotes story group type is Moments Block
   StoryGroupTypeMomentsBlock = 3,
+/// Denotes story group type is Live
+  StoryGroupTypeLive = 4,
 };
 
 @class NSCoder;
@@ -906,8 +908,10 @@ typedef SWIFT_ENUM_NAMED(NSInteger, StoryType, "StoryType", open) {
   StoryTypeVideo = 2,
 /// Denotes the type of the story is LongVideo
   StoryTypeLongVideo = 3,
+/// Denotes the type of the story is Live
+  StoryTypeLive = 4,
 /// Denotes the type of the story is an Ad View
-  StoryTypeAd = 4,
+  StoryTypeAd = 5,
 };
 
 @class UITouch;
@@ -1658,7 +1662,7 @@ SWIFT_CLASS_NAMED("Builder")
 /// This function allows you to change the typeface of the font on the interactives
 /// \param font UIFont instance to set 
 ///
-- (StorylyStoryStylingBuilder * _Nonnull)setInteractiveFont:(UIFont * _Nonnull)font SWIFT_WARN_UNUSED_RESULT;
+- (StorylyStoryStylingBuilder * _Nonnull)setInteractiveFont:(UIFont * _Nullable)font SWIFT_WARN_UNUSED_RESULT;
 /// This function allows you to change the progress bar colors of the story view.
 /// \param colors [UIColor] instance to set 
 ///
@@ -2501,6 +2505,8 @@ typedef SWIFT_ENUM_NAMED(NSInteger, StoryGroupType, "StoryGroupType", open) {
   StoryGroupTypeMomentsDefault = 2,
 /// Denotes story group type is Moments Block
   StoryGroupTypeMomentsBlock = 3,
+/// Denotes story group type is Live
+  StoryGroupTypeLive = 4,
 };
 
 @class NSCoder;
@@ -2694,8 +2700,10 @@ typedef SWIFT_ENUM_NAMED(NSInteger, StoryType, "StoryType", open) {
   StoryTypeVideo = 2,
 /// Denotes the type of the story is LongVideo
   StoryTypeLongVideo = 3,
+/// Denotes the type of the story is Live
+  StoryTypeLive = 4,
 /// Denotes the type of the story is an Ad View
-  StoryTypeAd = 4,
+  StoryTypeAd = 5,
 };
 
 @class UITouch;
@@ -3446,7 +3454,7 @@ SWIFT_CLASS_NAMED("Builder")
 /// This function allows you to change the typeface of the font on the interactives
 /// \param font UIFont instance to set 
 ///
-- (StorylyStoryStylingBuilder * _Nonnull)setInteractiveFont:(UIFont * _Nonnull)font SWIFT_WARN_UNUSED_RESULT;
+- (StorylyStoryStylingBuilder * _Nonnull)setInteractiveFont:(UIFont * _Nullable)font SWIFT_WARN_UNUSED_RESULT;
 /// This function allows you to change the progress bar colors of the story view.
 /// \param colors [UIColor] instance to set 
 ///
