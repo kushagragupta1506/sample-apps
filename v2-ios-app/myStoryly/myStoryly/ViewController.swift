@@ -10,7 +10,7 @@ import Storyly
 
 class ViewController: UIViewController {
     
-    let STORYLY_INSTANCE_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NfaWQiOjcxMzcsImFwcF9pZCI6MTE3NDYsImluc19pZCI6MTI1ODJ9.k7IVUbx4b23WTobh7u-ZIAYMdjN1xIDyA8z5WWncWbU"
+    let STORYLY_INSTANCE_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NfaWQiOjcxMzcsImFwcF9pZCI6MTMxMTUsImluc19pZCI6MTQyNDh9.8_WHJ9WFClC2UCi3MVBc4B4m1Hfce-LHrA0SUcnJiVo"
     
     let userPropertiesData = [
         "first_name" : "John",
@@ -53,6 +53,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         self.storylyView.storylyInit.config.userData = userPropertiesData
         //self.storylyView.openStory(storyGroupId: "51351", play: PlayMode.StoryGroup)
+        self.storylyView.languageCode = "TR"
         
         
     }
