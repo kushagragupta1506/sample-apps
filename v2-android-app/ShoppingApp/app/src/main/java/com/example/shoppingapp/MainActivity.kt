@@ -37,6 +37,7 @@ class MainActivity : AppCompatActivity() {
                         .build()
                 )
                 .setLabels(labels = setOf("en", "turkey"))
+                .setUserData(mapOf("data1" to "data1"))
                 .build()
         )
         storylyView.storylyListener = object : StorylyListener {

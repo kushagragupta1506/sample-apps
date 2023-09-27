@@ -9,18 +9,25 @@ import UIKit
 import Storyly
 
 class SecondViewController: UIViewController {
+    
+    let labels = Set(arrayLiteral: "es", "turkey", "french", "germany", "country-uk", "country-us","active", "de" )
+    
     @IBOutlet weak var storylyView: StorylyView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.storylyView.storylyInit = StorylyInit(storylyId: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NfaWQiOjcwMTgsImFwcF9pZCI6MTE1NDQsImluc19pZCI6MTIzNDF9.Ffue1gq3hBpLuiQ6FVseby94Lh0Y6PNLOK6suaHbnvo")
+        self.storylyView.storylyInit = StorylyInit(storylyId: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NfaWQiOjcxMzcsImFwcF9pZCI6MTE3NDYsImluc19pZCI6MTI1ODJ9.k7IVUbx4b23WTobh7u-ZIAYMdjN1xIDyA8z5WWncWbU")
         self.storylyView.rootViewController = self
         self.storylyView.delegate = self
         // Do any additional setup after loading the view.
     }
     
     @IBAction func openStoryButton() {
-        self.storylyView.openStory(storyGroupId: "49237", play: .Default)
+        self.storylyView.storylyInit.config.labels = labels
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
+            print("3 second delay")
+         self.storylyView.openStory(storyGroupId: "51351", play: PlayMode.StoryGroup)
+         }
     }
 
 }

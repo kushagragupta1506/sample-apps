@@ -44,6 +44,7 @@ class ViewController: UIViewController {
                             )
                            .setLabels(labels: Set(arrayLiteral: "es", "turkey", "french", "germany", "country-uk", "country-us","active", "de" ))
                            .setTestMode(isTest: true)
+                           //.setCustomParameter(parameter: "")
                            .build()
         )
         
@@ -52,8 +53,8 @@ class ViewController: UIViewController {
         self.storylyView.delegate = self // Override event functions
         // Do any additional setup after loading the view.
         self.storylyView.storylyInit.config.userData = userPropertiesData
-        //self.storylyView.openStory(storyGroupId: "51351", play: PlayMode.StoryGroup)
-        self.storylyView.languageCode = "TR"
+        self.storylyView.openStory(storyGroupId: "51351", play: PlayMode.StoryGroup)
+        //self.storylyView.languageCode = "TR"
         
         
     }
