@@ -24,10 +24,11 @@ class SecondViewController: UIViewController {
     
     @IBAction func openStoryButton() {
         self.storylyView.storylyInit.config.labels = labels
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
+        self.storylyView.openStory(storyGroupId: "51351", play: PlayMode.StoryGroup)
+        /*DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
             print("3 second delay")
          self.storylyView.openStory(storyGroupId: "51351", play: PlayMode.StoryGroup)
-         }
+         }*/
     }
 
 }
