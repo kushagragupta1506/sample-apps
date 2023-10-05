@@ -10,10 +10,10 @@ import Storyly
 
 class ViewController: UIViewController {
     
-    let STORYLY_INSTANCE_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NfaWQiOjcxMzcsImFwcF9pZCI6MTMxMTUsImluc19pZCI6MTQyNDh9.8_WHJ9WFClC2UCi3MVBc4B4m1Hfce-LHrA0SUcnJiVo"
+    let STORYLY_INSTANCE_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NfaWQiOjcxMzcsImFwcF9pZCI6MTE3NDYsImluc19pZCI6MTI1ODJ9.k7IVUbx4b23WTobh7u-ZIAYMdjN1xIDyA8z5WWncWbU"
     
     let userPropertiesData = [
-        "first_name" : "John",
+        "name" : "Sahin",
         "image_product_1" : "https://contents.mediadecathlon.com/p2058435/ec1165ccbcdc2abc0ef41b98f8c53e77/p2058435.jpg?format=auto&quality=70&f=650x0",
         "image_product_2" : "https://contents.mediadecathlon.com/p2431723/bea97805143565ce7ab8e0e3680ce3e5/p2431723.jpg?format=auto&quality=70&f=650x0",
         "image_product_3" : "https://contents.mediadecathlon.com/p2427007/6547648c60fc3c1d643fe2968cec84a7/p2427007.jpg?format=auto&quality=70&f=650x0",
@@ -42,6 +42,12 @@ class ViewController: UIViewController {
                                    .setIconCornerRadius(radius: 12)
                                    .build()
                             )
+                           .setProductConfig(
+                            config: StorylyProductConfig.Builder()
+                                .setProductFeedCountry(country: "")
+                                .setProductFeedLanguage(language: "")
+                                .build()
+                           )
                            .setLabels(labels: Set(arrayLiteral: "es", "turkey", "french", "germany", "country-uk", "country-us","active", "de" ))
                            .setTestMode(isTest: true)
                            //.setCustomParameter(parameter: "")
@@ -53,7 +59,7 @@ class ViewController: UIViewController {
         self.storylyView.delegate = self // Override event functions
         // Do any additional setup after loading the view.
         self.storylyView.storylyInit.config.userData = userPropertiesData
-        self.storylyView.openStory(storyGroupId: "51351", play: PlayMode.StoryGroup)
+        //self.storylyView.openStory(storyGroupId: "51351", play: PlayMode.StoryGroup)
         //self.storylyView.languageCode = "TR"
         
         

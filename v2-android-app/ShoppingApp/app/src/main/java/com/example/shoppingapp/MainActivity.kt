@@ -4,11 +4,14 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.os.Handler
 import android.util.Log
 import com.appsamurai.storyly.*
 import com.appsamurai.storyly.analytics.StorylyEvent
 import com.appsamurai.storyly.config.StorylyConfig
+import com.appsamurai.storyly.config.StorylyProductConfig
 import com.appsamurai.storyly.config.styling.group.StorylyStoryGroupStyling
+import com.appsamurai.storyly.config.styling.story.StorylyStoryStyling
 import com.example.shoppingapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -30,13 +33,24 @@ class MainActivity : AppCompatActivity() {
             StorylyConfig.Builder()
                 .setStoryGroupStyling(
                     StorylyStoryGroupStyling.Builder()
-                        .setIconHeight(350)
-                        .setIconWidth(275)
-                        .setIconCornerRadius(30)
+                        //.setIconHeight(200)
+                        //.setIconWidth(500)
+                        //.setIconCornerRadius(30)
                         .setSize(StoryGroupSize.Large)
                         .build()
                 )
-                .setLabels(labels = setOf("en", "turkey"))
+                .setProductConfig(
+                    StorylyProductConfig.Builder()
+                        .setProductFeedLanguage("")
+                        .setProductFeedCountry("")
+                        .build()
+                )
+                .setStoryStyling(
+                    StorylyStoryStyling.Builder()
+                        .setHeaderIconVisibility(isVisible = false)
+                        .build()
+                )
+                .setLabels(labels = setOf("en", "turkey", "french"))
                 .setUserData(mapOf("data1" to "data1"))
                 .build()
         )
@@ -53,9 +67,10 @@ class MainActivity : AppCompatActivity() {
                         }
                     )
                 }
-
-                //storylyView.dismiss(animationResId = 1)
-
+                /*storylyView.pauseStory()
+                Handler().postDelayed({
+                    storylyView.resumeStory()
+                }, 2000)*/
 
                 /*val goSecondPage = Intent(applicationContext, MainActivity2::class.java)
                 startActivity(goSecondPage) */ // go to other page

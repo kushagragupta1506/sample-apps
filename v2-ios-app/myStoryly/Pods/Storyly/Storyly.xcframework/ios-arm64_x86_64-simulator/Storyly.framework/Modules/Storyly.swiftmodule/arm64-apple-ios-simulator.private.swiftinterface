@@ -100,14 +100,6 @@ extension Storyly.StorylyView {
   @objc @_Concurrency.MainActor(unsafe) final public func refresh()
   @_Concurrency.MainActor(unsafe) final public func openStory(storyGroupId: Swift.String, storyId: Swift.String? = nil, play: Storyly.PlayMode = .Default) -> Swift.Bool
   @objc @_Concurrency.MainActor(unsafe) final public func openStory(payload: Foundation.URL) -> Swift.Bool
-  @available(*, deprecated, message: "This function will be removed in v2.3.0. We've introduced the pauseStory() function to pause story")
-  @objc @_Concurrency.MainActor(unsafe) final public func pause()
-  @available(*, deprecated, message: "This function will be removed in v2.3.0. We've introduced the resumeStory() function to story continuation")
-  @objc @_Concurrency.MainActor(unsafe) final public func resume()
-  @available(*, deprecated, message: "This function will be removed in v2.3.0. We've introduced two new functions for improved story management: pauseStory() and closeStory(). To temporarily halt a story and later resume it, use pauseStory(), followed by resumeStory() when ready to continue. For an immediate story closure, use closeStory()")
-  @objc @_Concurrency.MainActor(unsafe) final public func dismiss(animated: Swift.Bool, completion: (() -> Swift.Void)? = nil)
-  @available(*, deprecated, message: "This function will be removed in v2.3.0.")
-  @objc @_Concurrency.MainActor(unsafe) final public func present(animated: Swift.Bool, completion: (() -> Swift.Void)? = nil)
   @objc @_Concurrency.MainActor(unsafe) final public func resumeStory(animated: Swift.Bool, completion: (() -> Swift.Void)? = nil)
   @objc @_Concurrency.MainActor(unsafe) final public func pauseStory(animated: Swift.Bool, completion: (() -> Swift.Void)? = nil)
   @objc @_Concurrency.MainActor(unsafe) final public func closeStory(animated: Swift.Bool, completion: (() -> Swift.Void)? = nil)
@@ -270,6 +262,8 @@ extension Storyly.StorylyView {
     @objc(setPriceFormatter:) public func setPriceFormatter(formatter: Storyly.StoryPriceFormatter) -> Storyly.StorylyProductConfig.Builder
     @objc(setFallbackAvailability:) public func setFallbackAvailability(isEnabled: Swift.Bool) -> Storyly.StorylyProductConfig.Builder
     @objc(setCartEnabled:) public func setCartEnabled(isEnabled: Swift.Bool) -> Storyly.StorylyProductConfig.Builder
+    @objc(setProductFeedCountry:) public func setProductFeedCountry(country: Swift.String?) -> Storyly.StorylyProductConfig.Builder
+    @objc(setProductFeedLanguage:) public func setProductFeedLanguage(language: Swift.String?) -> Storyly.StorylyProductConfig.Builder
     @objc public func build() -> Storyly.StorylyProductConfig
     @objc override dynamic public init()
     @objc deinit

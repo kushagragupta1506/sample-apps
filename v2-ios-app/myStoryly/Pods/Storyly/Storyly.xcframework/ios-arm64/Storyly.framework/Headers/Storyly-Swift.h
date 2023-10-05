@@ -1475,6 +1475,14 @@ SWIFT_CLASS_NAMED("Builder")
 /// \param isEnabled Bool instance to set 
 ///
 - (StorylyProductConfigBuilder * _Nonnull)setCartEnabled:(BOOL)isEnabled SWIFT_WARN_UNUSED_RESULT;
+/// This function allows you to set country of product feed
+/// \param country country 
+///
+- (StorylyProductConfigBuilder * _Nonnull)setProductFeedCountry:(NSString * _Nullable)country SWIFT_WARN_UNUSED_RESULT;
+/// This function allows you to set language of product feed
+/// \param language language 
+///
+- (StorylyProductConfigBuilder * _Nonnull)setProductFeedLanguage:(NSString * _Nullable)language SWIFT_WARN_UNUSED_RESULT;
 /// This function builds StorylyProductConfig with the current properties
 ///
 /// returns:
@@ -1737,22 +1745,6 @@ SWIFT_CLASS_NAMED("StorylyView")
 /// returns:
 /// Success of the operation
 - (BOOL)openStoryWithPayload:(NSURL * _Nonnull)payload SWIFT_WARN_UNUSED_RESULT;
-/// This function allows you to pause the current story
-- (void)pause SWIFT_DEPRECATED_MSG("This function will be removed in v2.3.0. We've introduced the pauseStory() function to pause story");
-/// This function allows you to resume the current story
-- (void)resume SWIFT_DEPRECATED_MSG("This function will be removed in v2.3.0. We've introduced the resumeStory() function to story continuation");
-/// This function allows you to dismiss story view.
-/// \param animation Dismiss animation can be customized using this parameter
-///
-/// \param completion Actions to do after dismiss
-///
-- (void)dismissWithAnimated:(BOOL)animated completion:(void (^ _Nullable)(void))completion SWIFT_DEPRECATED_MSG("This function will be removed in v2.3.0. We've introduced two new functions for improved story management: pauseStory() and closeStory(). To temporarily halt a story and later resume it, use pauseStory(), followed by resumeStory() when ready to continue. For an immediate story closure, use closeStory()");
-/// This function allows you to open the story view.
-/// \param animation Opening animation can be customized using this parameter
-///
-/// \param completion Actions to do after present
-///
-- (void)presentWithAnimated:(BOOL)animated completion:(void (^ _Nullable)(void))completion SWIFT_DEPRECATED_MSG("This function will be removed in v2.3.0.");
 - (void)resumeStoryWithAnimated:(BOOL)animated completion:(void (^ _Nullable)(void))completion;
 - (void)pauseStoryWithAnimated:(BOOL)animated completion:(void (^ _Nullable)(void))completion;
 - (void)closeStoryWithAnimated:(BOOL)animated completion:(void (^ _Nullable)(void))completion;
