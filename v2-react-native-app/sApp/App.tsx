@@ -66,64 +66,44 @@ export default class App extends Component {
         return (
             <View>
                  <Storyly
-                    ref={ref => { this.storyly = ref }}
-                    style={{ width: '100%', height: convertToNative(178), marginTop: 10, marginBottom: 10}}
-                    storylyId={"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NfaWQiOjcxMzcsImFwcF9pZCI6MTE3NDYsImluc19pZCI6MTI1ODJ9.k7IVUbx4b23WTobh7u-ZIAYMdjN1xIDyA8z5WWncWbU"}
-                    storyGroupViewFactory={{
-                       width: convertToNative(100),
-                       height: convertToNative(178),
-                       customView: CustomPortraitView
-                   }}
-                   storyFallbackIsEnabled = {false}
-                   //storyCartIsEnabled = {true}
-                   /*onCartUpdate={ eventPayload => {
-                    this.storyly.approveCartChange(eventPayload.responseId, {
-                        "items": [
-                            {
-                                "item": {
-                                    "productId": "1",
-                                    "productGroupId": "1",
-                                    "title": "High-waist midi skirt",
-                                    "url": "https://www.storyly.io/",
-                                    "desc": "High-waist midi skirt made of a viscose blend. Featuring a slit at the hem and invisible zip fastening.",
-                                    "price": 25.99,
-                                    "imageUrls": ["https://random-feed-generator.vercel.app/images/clothes/group-1/1-6D7868.jpg","https://random-feed-generator.vercel.app/images/clothes/group-1/2-6D7868.jpg","https://random-feed-generator.vercel.app/images/clothes/group-1/3-6D7868.jpg","https://random-feed-generator.vercel.app/images/clothes/group-1/4-6D7868.jpg"],
-                                    "variants": [
-                                    {"name":"color","value":"#6D7868"},
-                                    {"name":"size","value":"XS"}
-                                    ]
-                                },
-                                "totalPrice": 12,
-                                "oldTotalPrice": 15,
-                                "quantity": 2
-                            }
-                        ],
-                        "totalPrice": 12,
-                        "oldTotalPrice": 15,
-                        "currency": "USD"
-                       });
-                    }}*/
-                    onLoad={event => { console.log("[Storyly] onLoad", event.storyGroupList.length, event.dataSource); }}
+                    style={{ width: '100%', height: 120, marginTop: 50 }}
+                    storylyId={STORYLY_TOKEN}
+                    storyGroupSize="large"
+                    onLoad={loadEvent => {
+                        console.log(`[Storyly] default - onLoad`);
+                    }}
                     onFail={errorMessage => {
-                        console.log(`[Storyly] onFail ${errorMessage}`);
+                        console.log(`[Storyly] default - onFail ${errorMessage}`);
                     }}
-                    onPress={pressEvent => {
-                        console.log(`[Storyly] onPress ${JSON.stringify(pressEvent)}`);
-                    }}
+                     onPress={story => { Linking.openURL(story.media.actionUrl)
+                         console.log(`[Storyly] default - onPress`, story.media.actionUrl);
+                     }}
+                    /*onEvent={event => {{
+                        "event" == "StoryCompleted" ? 
+                            console.log( `[Storyly] default - StoryCompleted`)
+                        :
+                            console.log( `[Storyly] default - not Complated`)
+                        }
+                    }}*/
                     onEvent={eventPayload => {
-                        console.log(`[Storyly] onEvent onEvent ${JSON.stringify(eventPayload)} `);
+                       
+                        console.log(`[Storyly] default - onEvent ${JSON.stringify(eventPayload.event)} StoryID:${JSON.stringify(eventPayload.story.id)} `)
+                        console.log(`[Storyly] StoryType:${eventPayload.storyComponent} `)
+
+                        
                     }}
+                    /*onEvent={event => {
+                        console.log(`[Storyly] StoryType:${event.storyComponent?.type} `)          
+                    }}*/
+
                     onStoryOpen={() => {
-                        console.log("[Storyly] onStoryOpen");
+                        console.log("[Storyly] default - onStoryOpen");
                     }}
                     onStoryClose={() => {
-                        console.log("[Storyly] onStoryClose");
-                    }}
-                    onStoryOpenFailed={(message: any) => {
-                        console.log(`[Storyly] onStoryOpenFailed ${message}`)
+                        console.log("[Storyly] default - onStoryClose");
                     }}
                     onUserInteracted={interactionEvent => {
-                        console.log(`[Storyly] onStoryUserInteracted ${JSON.stringify(interactionEvent)}`);
+                        console.log(`[Storyly] default - onStoryUserInteracted:${JSON.stringify(interactionEvent.storyComponent)}`);
                     }}/>
                 <Button
                     onPress={() => { this.storyly.refresh(); }}
