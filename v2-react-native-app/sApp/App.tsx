@@ -9,7 +9,7 @@
  */
 
 import React, { Component } from 'react';
-import { View, Button, Image, Text, PixelRatio, Linking, Platform } from 'react-native';
+import { View, Button, Image, Text, PixelRatio, Linking, Platform, SafeAreaView } from 'react-native';
 import { Storyly } from 'storyly-react-native';
 
 const PIN_ICON = require('./assets/pin_icon.png'); 
@@ -64,9 +64,10 @@ export default class App extends Component {
     storyly: any;
     render() {
         return (
-            <View>
+            <SafeAreaView>
                  <Storyly
-                    style={{ width: '100%', height: 120, marginTop: 50 }}
+                    ref={ref => { this.storyly = ref }}
+                    style={{ width: '100%', height: 120, marginTop: 15, }}
                     storylyId={STORYLY_TOKEN}
                     storyGroupSize="large"
                     onLoad={loadEvent => {
@@ -109,7 +110,7 @@ export default class App extends Component {
                     onPress={() => { this.storyly.refresh(); }}
                     title="Refresh"
                 />
-            </View>
+            </SafeAreaView>
         );
     }
 }

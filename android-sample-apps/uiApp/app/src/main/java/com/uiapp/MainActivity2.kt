@@ -36,30 +36,14 @@ class MainActivity2 : AppCompatActivity() {
             //"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NfaWQiOjcxMzcsImFwcF9pZCI6MTE3NTIsImluc19pZCI6MTI1ODl9.Z_F9S6OyES9rfwYDFV47zT0_DbP0WUwqE5EmYOpCZRQ",
             //"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NfaWQiOjQ2NDUsImFwcF9pZCI6MTIwMDMsImluc19pZCI6MTI5MDJ9.WXCJBzovJhuVQu9vQGSfk1g7OfGmjWOqgssZ9j02-d4",
             "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NfaWQiOjcxMzcsImFwcF9pZCI6MTE3NTIsImluc19pZCI6MTMzMDF9.0VSpIaKA9IzeTZ1CICJOkINWyENP7ROPN_d5Qo5yEo4",
-            customParameter = "52F69B7D441C335B5B297D6BBF692751",
-            userData = userPropertiesData
+
         )
         data1?.let {
             storylyView.openStory(data1)
         }
 
 
-        val externalData = mutableListOf<Map<String, Any?>>(
-            mapOf(
-                "{name}" to "Sahin!",
-                //"{surname}" to "aycicek"
-                "{user_id}" to "Sahin",
-                "{img}" to "https://cdn.pixabay.com/photo/2012/04/13/17/00/lcd-32872_1280.png"
-            ),
-            mapOf(
-                "{name}" to "Alper!",
-                "{user_id}" to "Alper",
-                //"{surname}" to "aycicek"
-                "{img}" to "https://cdn.pixabay.com/photo/2012/04/13/17/00/lcd-32872_1280.png"
 
-            )
-        )
-        storylyView.setExternalData(externalData)
 
         storylyView.storylyListener = object : StorylyListener {
 
