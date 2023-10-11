@@ -9,8 +9,10 @@ import UIKit
 import Storyly
 
 class ViewController: UIViewController {
+    internal var openUrl: URL?
+    internal var openUrlPayload: [AnyHashable : Any]?
     
-    let STORYLY_INSTANCE_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NfaWQiOjcxMzcsImFwcF9pZCI6MTE3NDYsImluc19pZCI6MTI1ODJ9.k7IVUbx4b23WTobh7u-ZIAYMdjN1xIDyA8z5WWncWbU"
+    let STORYLY_INSTANCE_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NfaWQiOjEwNTY5LCJhcHBfaWQiOjE1ODg2LCJpbnNfaWQiOjE3NDIwfQ.vM9PyK5NlmKwS8IibZZgTJ2fmSoK1h7yf_zfUdeH-BI"
     
     let userPropertiesData = [
         "name" : "Sahin",
@@ -28,8 +30,15 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var storylyView: StorylyView!
     
+    
+    func openStory2(url:URL) {
+        print("Open Story")
+        self.storylyView.openStory(payload: url)
+      }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         
         self.storylyView.storylyInit = StorylyInit(
             storylyId: STORYLY_INSTANCE_TOKEN,
@@ -59,6 +68,7 @@ class ViewController: UIViewController {
         self.storylyView.delegate = self // Override event functions
         // Do any additional setup after loading the view.
         self.storylyView.storylyInit.config.userData = userPropertiesData
+        //self.storlyView.openStory(payload: URL(string: openStoryURL)!)
         //self.storylyView.openStory(storyGroupId: "51351", play: PlayMode.StoryGroup)
         //self.storylyView.languageCode = "TR"
         

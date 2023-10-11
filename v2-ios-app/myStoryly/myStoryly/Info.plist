@@ -8,10 +8,10 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>kredivo</string>
+			<string>vitat</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>kredivo</string>
+				<string>vitat</string>
 			</array>
 		</dict>
 	</array>
