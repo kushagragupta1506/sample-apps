@@ -47,34 +47,44 @@ class _HomePageState extends State<HomePage> {
 
   void onStorylyViewCreated(StorylyViewController storylyViewController) {
     this.storylyViewController = storylyViewController;
-    //this.storylyViewController.setExternalData(externalData);
     //this.storylyViewController.hydrateProducts(products);
+    // If you want to hydrate your products, you can use hydrateProducts method when isProductFallbackEnabled set as false
   }
 
 
-
-  final externalData = [
+  final products = [
     {
-      "{user_name}": "user_name_url",
-      "{picture}": "https://ichef.bbci.co.uk/news/999/cpsprodpb/15951/production/_117310488_16.jpg",
-      "{media_1}": "media_url_1",
-      "{product_name}": "product_name_url",
-      "{price}": "price_url",
-      "{description}": "description_url",
-      "{cta_button}": "Buy Now",
-      "{cta_url}": "https://www.storyly.io/",
+      "productId": "1",
+      "productGroupId": "1",
+      "title": "High-waist midi skirt",
+      "url": "https://www.storyly.io/",
+      "desc": "High-waist midi skirt made of a viscose blend. Featuring a slit at the hem and invisible zip fastening.",
+      "price": 25.99,
+
+      "currency": "USD",
+      "imageUrls": ["https://random-feed-generator.vercel.app/images/clothes/group-1/1-6D7868.jpg","https://random-feed-generator.vercel.app/images/clothes/group-1/2-6D7868.jpg","https://random-feed-generator.vercel.app/images/clothes/group-1/3-6D7868.jpg","https://random-feed-generator.vercel.app/images/clothes/group-1/4-6D7868.jpg"],
+      "variants": [
+        {"name":"color","value":"#6D7868"},
+        {"name":"size","value":"XS"}
+      ]
     },
     {
-      "{user_name}": "user_name_url",
-      "{fav_picture}": "https://ichef.bbci.co.uk/news/999/cpsprodpb/15951/production/_117310488_16.jpg",
-      "{media_1}": "media_url_1",
-      "{fav_product_name}": "product_name_url",
-      "{price}": "price_url",
-      "{description}": "description_url",
-      "{fav_cta_button}": "Buy Now",
-      "{cta_url}": "https://www.storyly.io/",
+      "productId": "3",
+      "productGroupId": "1",
+      "title": "High-waist midi skirt",
+      "url": "https://www.storyly.io/",
+      "desc": "High-waist midi skirt made of a viscose blend. Featuring a slit at the hem and invisible zip fastening.",
+      "price": 25.99,
+
+      "currency": "USD",
+      "imageUrls": ["https://random-feed-generator.vercel.app/images/clothes/group-1/1-6D7868.jpg","https://random-feed-generator.vercel.app/images/clothes/group-1/2-6D7868.jpg","https://random-feed-generator.vercel.app/images/clothes/group-1/3-6D7868.jpg","https://random-feed-generator.vercel.app/images/clothes/group-1/4-6D7868.jpg"],
+      "variants": [
+        {"name":"color","value":"#6D7868"},
+        {"name":"size","value":"M"}
+      ]
     }
   ];
+
 
   @override
   Widget build(BuildContext context) {
@@ -94,48 +104,57 @@ class _HomePageState extends State<HomePage> {
                   if (event == "StoryCartViewClicked") {
                     debugPrint("StoryCartViewClicked -> event: $event");
                   }
+                  if (event == "StoryProductSelected") {
+                    debugPrint("StoryProductSelected -> event: $event");
+                  }
                 },
                 storylyOnProductHydration: (products){
                   debugPrint("products -> products Ids: $products");
                 },
                 storylyOnProductCartUpdated: (event, cart, change, responseId) {
-                    storylyViewController.approveCartChange(responseId, {
-                      "items": [
-                        {
-                          "item": {
-                            "productId": "1",
-                            "productGroupId": "1",
-                            "title": "High-waist midi skirt",
-                            "url": "https://www.storyly.io/",
-                            "desc": "High-waist midi skirt made of a viscose blend. Featuring a slit at the hem and invisible zip fastening.",
-                            "price": 25.99,
-                            "imageUrls": ["https://random-feed-generator.vercel.app/images/clothes/group-1/1-6D7868.jpg","https://random-feed-generator.vercel.app/images/clothes/group-1/2-6D7868.jpg","https://random-feed-generator.vercel.app/images/clothes/group-1/3-6D7868.jpg","https://random-feed-generator.vercel.app/images/clothes/group-1/4-6D7868.jpg"],
-                            "variants": [
-                              {"name":"color","value":"#6D7868"},
-                              {"name":"size","value":"XS"}
-                            ]
-                          },
-                          "totalPrice": 12,
-                          "oldTotalPrice": 15,
-                          "quantity": 2
-                        }
-                      ],
-                      "totalPrice": 12,
-                      "oldTotalPrice": 15,
-                      "currency": "USD"
-                    });
-                  },
+                  storylyViewController.approveCartChange(responseId, {
+                    "items": [
+                      {
+                        "item": {
+                          "productId": "1",
+                          "productGroupId": "1",
+                          "title": "High-waist midi skirt",
+                          "url": "https://www.storyly.io/",
+                          "desc": "High-waist midi skirt made of a viscose blend. Featuring a slit at the hem and invisible zip fastening.",
+                          "price": 25.99,
+                          "imageUrls": ["https://random-feed-generator.vercel.app/images/clothes/group-1/1-6D7868.jpg","https://random-feed-generator.vercel.app/images/clothes/group-1/2-6D7868.jpg","https://random-feed-generator.vercel.app/images/clothes/group-1/3-6D7868.jpg","https://random-feed-generator.vercel.app/images/clothes/group-1/4-6D7868.jpg"],
+                          "variants": [
+                            {"name":"color","value":"#6D7868"},
+                            {"name":"size","value":"XS"}
+                          ]
+                        },
+                        "totalPrice": 12,
+                        "oldTotalPrice": 15,
+                        "quantity": 2
+                      }
+                    ],
+                    "totalPrice": 12,
+                    "oldTotalPrice": 15,
+                    "currency": "USD"
+                  });
+                },
                 androidParam: StorylyParam()
-                  ..storylyId = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NfaWQiOjcxMzcsImFwcF9pZCI6MTE3NDYsImluc19pZCI6MTI1ODJ9.k7IVUbx4b23WTobh7u-ZIAYMdjN1xIDyA8z5WWncWbU"
+                  ..storylyId = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NfaWQiOjEwOTU1LCJhcHBfaWQiOjE2NTA4LCJpbnNfaWQiOjE4MTg2fQ.KsZUkHTGncXsXKcczSt-j2on82hl9kmrSu2PVMywJC0"
                   ..storyGroupTextTypeface= 'Lobster1.4.otf'
-                  //..storyInteractiveTextTypeface= 'Lobster1.4.otf'
+                //..storyInteractiveTextTypeface= 'Lobster1.4.otf'
+                  ..isProductCartEnabled = true
+                  ..isProductFallbackEnabled = true
+                  ..storylyLayoutDirection = "rtl"
+                  ..storylySegments = ['arabic', 'shoppable', "english"]
                   ..storyGroupListHorizontalEdgePadding = 20
                   ..storyGroupListHorizontalPaddingBetweenItems = 20,
                 iosParam: StorylyParam()
-                  ..storylyId = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NfaWQiOjcxMzcsImFwcF9pZCI6MTE3NDYsImluc19pZCI6MTI1ODJ9.k7IVUbx4b23WTobh7u-ZIAYMdjN1xIDyA8z5WWncWbU"
+                  ..storylyId = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NfaWQiOjEwOTU1LCJhcHBfaWQiOjE2NzE5LCJpbnNfaWQiOjE4NDU5fQ.-htu_LzSm4u0INmLUQqtqVP9jT1NS58mu1mhqDRNXeQ"
                   ..storyGroupListHorizontalEdgePadding = 20
+                  ..storylySegments = ['arabic', 'shoppable', "english"]
                   ..isProductCartEnabled = true
                   ..isProductFallbackEnabled = true
+                  ..storylyLayoutDirection = "rtl"
                   ..storyGroupListHorizontalPaddingBetweenItems = 20,
                 storylyLoaded: (storyGroups, dataSource) {
                   debugPrint(
@@ -146,7 +165,7 @@ class _HomePageState extends State<HomePage> {
                 storylyLoadFailed: (errorMessage) =>
                     debugPrint("storylyLoadFailed"),
                 storylyActionClicked: (story) {
-                  debugPrint("storylyActionClicked -> ${story.title}");
+                  debugPrint("storylyActionClicked -> ${story.media.actionUrl}");
                 },
                 storylyEvent: (event, storyGroup, story, storyComponent) {
                   debugPrint("storylyEvent -> event: $event");
