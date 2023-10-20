@@ -70,14 +70,17 @@ export default class App extends Component {
                     style={{ width: '100%', height: 120, marginTop: 15, }}
                     storylyId={STORYLY_TOKEN}
                     storyGroupSize="large"
+                    storyGroupTextTypeface={"Lobster1.4.otf"}
                     onLoad={loadEvent => {
                         console.log(`[Storyly] default - onLoad`);
                     }}
                     onFail={errorMessage => {
                         console.log(`[Storyly] default - onFail ${errorMessage}`);
                     }}
-                     onPress={story => { Linking.openURL(story.media.actionUrl)
-                         console.log(`[Storyly] default - onPress`, story.media.actionUrl);
+                     onPress={story => { 
+                        this.storyly.closeStory()
+                        //Linking.openURL(story.media.actionUrl)
+                        console.log(`[Storyly] default - onPress`, story.media.actionUrl);
                      }}
                     /*onEvent={event => {{
                         "event" == "StoryCompleted" ? 
