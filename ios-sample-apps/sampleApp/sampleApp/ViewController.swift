@@ -11,7 +11,7 @@ import Storyly
 
 class ViewController: UIViewController {
     let storylyViewProgrammatic = StorylyView()
-    let STORYLY_INSTANCE_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NfaWQiOjcxMzcsImFwcF9pZCI6MTE3NDYsImluc19pZCI6MTI1ODJ9.k7IVUbx4b23WTobh7u-ZIAYMdjN1xIDyA8z5WWncWbU"
+    let STORYLY_INSTANCE_TOKEN = "YOUR_TOKEN"
     
     
     
@@ -41,13 +41,13 @@ class ViewController: UIViewController {
        
     override func viewDidLoad() {
         super.viewDidLoad()
-        let openStoryURL = "fizy://storyly?g=78872&s=701954&instance=16022&;scheme=fizy://;package=com.turkcell.fizy.dev;end"
+        let openStoryURL = "cianurl://cian.ru/storyly?g=38178&instance=9386&play=sg"
         let lang =  Locale.autoupdatingCurrent.languageCode
         print("lang ======== \(String(describing: lang!))")
         if (storylyFlag == true) {
             self.storlyView.storylyInit = StorylyInit(
                 storylyId: STORYLY_INSTANCE_TOKEN,
-                segmentation:StorylySegmentation(segments: Set(arrayLiteral: lang!, "turkey", "french", "germany", "staging", "gender-f","active", "de")),
+                segmentation:StorylySegmentation(segments: Set(arrayLiteral: lang!, "диплинк", "french", "germany", "staging", "gender-f","active", "de")),
                 customParameter: "2"
                 //userData: userPropertiesData
             )
@@ -59,7 +59,7 @@ class ViewController: UIViewController {
         //self.storlyView.setExternalData(externalData: externalData)
         self.storlyView.storylyInit.userData = userPropertiesData
         self.storlyView.storyInteractiveFont = UIFont(name: "Thonburi-Light", size: 10)!
-        //self.storlyView.openStory(payload: URL(string: openStoryURL)!)
+        self.storlyView.openStory(payload: URL(string: openStoryURL)!)
         //self.storlyView.openStory(storyGroupId: "51360", storyId: "418174", play: .Story)
         if (storylyFlag == false){
             self.storlyView.isHidden = true
