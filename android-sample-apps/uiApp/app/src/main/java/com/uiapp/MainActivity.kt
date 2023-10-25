@@ -12,6 +12,7 @@ import android.util.Log
 import android.view.View
 import com.appsamurai.storyly.StoryComponentType.*
 import com.appsamurai.storyly.analytics.StorylyEvent
+import com.appsamurai.storyly.config.StorylyConfig
 import com.appsamurai.storyly.data.managers.product.STRProductItem
 import com.appsamurai.storyly.data.managers.product.STRProductVariant
 import com.appsamurai.storyly.exoplayer2.hls.playlist.HlsMediaPlaylist
@@ -38,7 +39,10 @@ class MainActivity : AppCompatActivity() {
         val storylyView = findViewById<StorylyView>(R.id.storyly_view)
         if (storylyFlag == true) {
             storylyView.storylyInit = StorylyInit(
-                "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NfaWQiOjcxMzcsImFwcF9pZCI6MTE3NDYsImluc19pZCI6MTI1ODJ9.k7IVUbx4b23WTobh7u-ZIAYMdjN1xIDyA8z5WWncWbU",
+                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NfaWQiOjEwOTk4LCJhcHBfaWQiOjE2Njg0LCJpbnNfaWQiOjE4NDA0fQ.Fdi_OwcS_-Rd0achBvKurmk-z2VklBujSx6_S-e_CUo",
+                StorylyConfig.Builder()
+                    .setLabels(labels = setOf("hub"))
+                    .build()
             )
         }
         Log.d("Init", "Init ${storylyView.storylyInit}")
