@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
         val storylyView = findViewById<StorylyView>(R.id.storyly_view)
         if (storylyFlag == true) {
             storylyView.storylyInit = StorylyInit(
-                "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NfaWQiOjEwOTk4LCJhcHBfaWQiOjE2Njg0LCJpbnNfaWQiOjE4NDA0fQ.Fdi_OwcS_-Rd0achBvKurmk-z2VklBujSx6_S-e_CUo",
+                "YOUR_TOKEN",
                 StorylyConfig.Builder()
                     .setLabels(labels = setOf("hub"))
                     .build()
@@ -72,15 +72,6 @@ class MainActivity : AppCompatActivity() {
                     )
                 }
 
-
-                /*val goSecondPage = Intent(applicationContext, MainActivity2::class.java)
-                startActivity(goSecondPage) */ // go to other page
-
-                /* val fragment = DemoFragment()
-                 fragment.onCloseClick = {
-                     removeFragments()
-                 }
-                 showExternalFragment(fragment) */
             }
 
             override fun storylyLoaded(
@@ -196,15 +187,6 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-
-
-    fun showExternalFragment(fragment : Fragment) {
-        binding.storylyView.showExternalFragment(fragment)
-    }
-
-    fun removeFragments() {
-        binding.storylyView.dismissAllExternalFragment()
-    }
 }
 
 
