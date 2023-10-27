@@ -26,7 +26,7 @@ class SecondViewController: UIViewController {
         self.storylyView.storylyInit.config.labels = labels
         DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
             print("3 second delay")
-         self.storylyView.openStory(storyGroupId: "51351", play: PlayMode.StoryGroup)
+         //self.storylyView.openStory(storyGroupId: "51351", play: PlayMode.StoryGroup)
          }
     }
 
