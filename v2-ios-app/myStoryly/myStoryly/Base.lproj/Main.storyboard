@@ -58,10 +58,10 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BoO-pV-I6i">
-                                <rect key="frame" x="140" y="431" width="135" height="35"/>
+                                <rect key="frame" x="119" y="431" width="177" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray" title="Open Story"/>
+                                <buttonConfiguration key="configuration" style="gray" title="Open/Resume Story"/>
                                 <connections>
                                     <action selector="openStoryButton" destination="4RO-Rz-6tg" eventType="touchUpInside" id="Lvm-7M-aEV"/>
                                 </connections>

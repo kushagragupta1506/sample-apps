@@ -23,11 +23,12 @@ class SecondViewController: UIViewController {
     }
     
     @IBAction func openStoryButton() {
-        self.storylyView.storylyInit.config.labels = labels
-        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
+        //self.storylyView.storylyInit.config.labels = labels
+        self.storylyView.storylyInit =  StorylyInit(storylyId: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NfaWQiOjcxMzcsImFwcF9pZCI6MTE3NDYsImluc19pZCI6MTI1ODJ9.k7IVUbx4b23WTobh7u-ZIAYMdjN1xIDyA8z5WWncWbU")
+        /*DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
             print("3 second delay")
          //self.storylyView.openStory(storyGroupId: "51351", play: PlayMode.StoryGroup)
-         }
+         }*/
     }
 
 }
@@ -37,7 +38,11 @@ extension SecondViewController : StorylyDelegate {
     func storylyLoaded(_ storylyView: Storyly.StorylyView,
                        storyGroupList: [Storyly.StoryGroup],
                        dataSource: StorylyDataSource) {
-        print("StorylyLoaded ===>\(storyGroupList.capacity)")
+        //print("StorylyLoaded ===>\(storyGroupList.capacity)")
+        if (dataSource == StorylyDataSource.API) {
+            print("apii ======== \(StorylyDataSource.API)")
+            print("storylyLoadedAPIIIII ==========>\(storyGroupList.capacity)")
+                }
     }
     
     func storylyLoadFailed(_ storylyView: Storyly.StorylyView,
@@ -56,6 +61,6 @@ extension SecondViewController : StorylyDelegate {
                 }
         UIApplication.shared.openURL(url)
         
-        //self.storylyView.pause()
+        //self.storylyView.pauseStory()
     }
 }

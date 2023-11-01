@@ -83,6 +83,10 @@ extension ViewController : StorylyDelegate {
                        storyGroupList: [Storyly.StoryGroup],
                        dataSource: StorylyDataSource) {
         print("StorylyLoaded ===>\(storyGroupList.capacity)")
+        if (dataSource == StorylyDataSource.API) {
+            print("apii ======== \(StorylyDataSource.API)")
+            print("storylyLoadedAPIIIII ==========>\(storyGroupList.capacity)")
+                }
     }
     
     func storylyLoadFailed(_ storylyView: Storyly.StorylyView,
