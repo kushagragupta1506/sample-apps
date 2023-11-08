@@ -78,8 +78,8 @@ export default class App extends Component {
                         console.log(`[Storyly] default - onFail ${errorMessage}`);
                     }}
                      onPress={story => { 
-                        this.storyly.closeStory()
-                        //Linking.openURL(story.media.actionUrl)
+                        //this.storyly.closeStory()
+                        Linking.openURL(story.media.actionUrl)
                         console.log(`[Storyly] default - onPress`, story.media.actionUrl);
                      }}
                     /*onEvent={event => {{

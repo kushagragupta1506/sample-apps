@@ -486,10 +486,10 @@ PODS:
     - React-logger (= 0.72.5)
     - React-perflogger (= 0.72.5)
   - SocketRocket (0.6.1)
-  - Storyly (2.4.0)
+  - Storyly (2.5.0)
   - storyly-react-native (2.4.0):
     - React
-    - Storyly (= 2.4.0)
+    - Storyly (= 2.5.0)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
@@ -713,8 +713,8 @@ SPEC CHECKSUMS:
   React-utils: 7a9918a1ffdd39aba67835d42386f592ea3f8e76
   ReactCommon: 91ece8350ebb3dd2be9cef662abd78b6948233c0
   SocketRocket: f32cd54efbe0f095c4d7594881e52619cfe80b17
-  Storyly: c19f50039bca21c69bdece7b17f03a35c8dc9650
-  storyly-react-native: 53642035055fa71433affcf1858e7e9971168adf
+  Storyly: da60b08ab7137fdd0a6a19a97e5e419aaeaaf768
+  storyly-react-native: e521104e020d1b083ab6050250985b6f311917b8
   Yoga: 86fed2e4d425ee4c6eab3813ba1791101ee153c6
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 

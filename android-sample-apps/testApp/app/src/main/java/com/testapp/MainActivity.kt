@@ -26,15 +26,10 @@ class MainActivity : AppCompatActivity() {
         val storeName = "new york"
         val segmentation = StorylySegmentation(setOf("store=$storeName"))
         wideLandscapeViewFactory.storylyInit = StorylyInit(
-            //cook unity "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2NfaWQiOjEwMjE3LCJhcHBfaWQiOjE1MzY5LCJpbnNfaWQiOjE2OTIwfQ.r6KFuAurnSh8rvub8xgamqGwrlL6-2X94vsVI2KXOng",
-            "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NfaWQiOjUwMjMsImFwcF9pZCI6OTQ3OSwiaW5zX2lkIjo5OTM3fQ.VDoqNGj9h_N8iHL_p_zk3C6DCJWsurpydn4BAfxLElY",
-            //"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NfaWQiOjcwMTgsImFwcF9pZCI6MTE1NDQsImluc19pZCI6MTIzNDF9.Ffue1gq3hBpLuiQ6FVseby94Lh0Y6PNLOK6suaHbnvo",
-            //segmentation = segmentation
+            "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NfaWQiOjcwMTgsImFwcF9pZCI6MTE1NDQsImluc19pZCI6MTIzNDF9.Ffue1gq3hBpLuiQ6FVseby94Lh0Y6PNLOK6suaHbnvo",
         )
 
-        wideLandscapeViewFactory.setStoryGroupListStyling(StoryGroupListStyling(
-            horizontalEdgePadding = 70f
-        ))
+
 
 
         /*val landscapeViewFactory = findViewById<StorylyView>(R.id.styling_landscape)
