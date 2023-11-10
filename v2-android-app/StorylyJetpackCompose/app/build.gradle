@@ -22,8 +22,9 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.debug
         }
     }
     compileOptions {
@@ -58,7 +59,7 @@ dependencies {
     debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_ui_version"
 
     // Storyly SDK
-    implementation 'com.appsamurai.storyly:storyly:2.5.0'
+    implementation 'com.appsamurai.storyly:storyly:2.1.0'
     // Moments SDK
     implementation 'com.appsamurai.storyly:storyly-moments:0.5.1'
 }

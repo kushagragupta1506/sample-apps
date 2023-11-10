@@ -337,13 +337,13 @@ PODS:
     - React-jsi (= 0.66.5)
     - React-logger (= 0.66.5)
     - React-perflogger (= 0.66.5)
-  - Storyly (2.1.0)
+  - Storyly (2.5.0)
   - storyly-moments-react-native (0.3.0):
     - React-Core
     - StorylyMoments (~> 0.3.0)
-  - storyly-react-native (2.1.0):
+  - storyly-react-native (2.4.1):
     - React
-    - Storyly (~> 2.1.0)
+    - Storyly (= 2.5.0)
   - StorylyMoments (0.3.1)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
@@ -534,9 +534,9 @@ SPEC CHECKSUMS:
   React-RCTVibration: 96dbefca7504f3e52ff47cd0ad0826d20e3a789f
   React-runtimeexecutor: 09041c28ce04143a113eac2d357a6b06bd64b607
   ReactCommon: 8a7a138ae43c04bb8dd760935589f326ca810484
-  Storyly: 519526b5944949970e0e1b095010d8c5c2689746
+  Storyly: da60b08ab7137fdd0a6a19a97e5e419aaeaaf768
   storyly-moments-react-native: 35daf5deafff1c7ab73760405f28119bb91cba8e
-  storyly-react-native: c1c853942c5581407fea856d9d47787cfbdbf188
+  storyly-react-native: b00abd25670c06e2a581aa1020d6d788f45f2679
   StorylyMoments: 27823d9fcaf3f72e20bb0ee0ab1755a97bf98b52
   Yoga: b316a990bb6d115afa1b436b5626ac7c61717d17
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a

@@ -22672,6 +22672,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
             "name": "_ArrayProtocol",
             "printedName": "_ArrayProtocol",
             "children": [
@@ -23125,13 +23132,6 @@
             "printedName": "CustomDebugStringConvertible",
             "usr": "s:s28CustomDebugStringConvertibleP",
             "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
           },
           {
             "kind": "Conformance",
@@ -24534,6 +24534,48 @@
       "offset": 552,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Config\/Styling\/StorylyTextStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 214,
+      "length": 3,
+      "value": "\"u\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Config\/Styling\/StorylyTextStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 243,
+      "length": 3,
+      "value": "\"s\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Config\/Styling\/StorylyTextStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 284,
+      "length": 5,
+      "value": "\"u+s\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Config\/Styling\/StorylyTextStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 214,
+      "length": 3,
+      "value": "\"u\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Config\/Styling\/StorylyTextStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 243,
+      "length": 3,
+      "value": "\"s\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Config\/Styling\/StorylyTextStyle.swift",
+      "kind": "StringLiteral",
+      "offset": 284,
+      "length": 5,
+      "value": "\"u+s\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyCenter\/StorylyCenterView.swift",
@@ -26981,91 +27023,105 @@
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyLayer\/StorylyCountDownView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2310,
+      "offset": 2088,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyLayer\/StorylyCountDownView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2288,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyLayer\/StorylyCountDownView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2713,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyLayer\/StorylyCountDownView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2525,
+      "offset": 2928,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyLayer\/StorylyCountDownView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2571,
+      "offset": 2974,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyLayer\/StorylyCountDownView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2959,
+      "offset": 3362,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyLayer\/StorylyCountDownView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3070,
+      "offset": 3473,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyLayer\/StorylyCountDownView.swift",
       "kind": "StringLiteral",
-      "offset": 3141,
+      "offset": 3544,
       "length": 9,
       "value": "\"#DADADA\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyLayer\/StorylyCountDownView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3372,
+      "offset": 3775,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyLayer\/StorylyCountDownView.swift",
       "kind": "FloatLiteral",
-      "offset": 3503,
+      "offset": 3906,
       "length": 4,
       "value": "15.0"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyLayer\/StorylyCountDownView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3781,
+      "offset": 4184,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyLayer\/StorylyCountDownView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3814,
+      "offset": 4217,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyLayer\/StorylyCountDownView.swift",
       "kind": "BooleanLiteral",
-      "offset": 3846,
+      "offset": 4249,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyLayer\/StorylyCountDownView.swift",
       "kind": "IntegerLiteral",
-      "offset": 3892,
+      "offset": 4295,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyLayer\/StorylyCountDownView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4099,
+      "offset": 4502,
       "length": 5,
       "value": "false"
     },
@@ -27863,7 +27919,7 @@
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyGroupCollectionView.swift",
       "kind": "BooleanLiteral",
-      "offset": 18032,
+      "offset": 17957,
       "length": 4,
       "value": "true"
     },
@@ -28748,6 +28804,34 @@
       "offset": 16029,
       "length": 2,
       "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Util\/Extension\/UIView+Constraint.swift",
+      "kind": "IntegerLiteral",
+      "offset": 231,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Util\/Extension\/UIView+Constraint.swift",
+      "kind": "IntegerLiteral",
+      "offset": 249,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Util\/Extension\/UIView+Constraint.swift",
+      "kind": "IntegerLiteral",
+      "offset": 272,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Util\/Extension\/UIView+Constraint.swift",
+      "kind": "IntegerLiteral",
+      "offset": 293,
+      "length": 1,
+      "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyGroupStyle.swift",
@@ -29705,8 +29789,8 @@
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Util\/Font\/STRFont.swift",
       "kind": "StringLiteral",
       "offset": 185,
-      "length": 102,
-      "value": "\"http:\/\/fonts.gstatic.com\/s\/inter\/v12\/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZhrib2Bg-4.ttf\""
+      "length": 103,
+      "value": "\"https:\/\/fonts.gstatic.com\/s\/inter\/v13\/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfMZhrib2Bg-4.ttf\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyGroupCell.swift",
@@ -29725,196 +29809,196 @@
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyGroupCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 9062,
+      "offset": 9037,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyGroupCell.swift",
       "kind": "StringLiteral",
-      "offset": 9213,
+      "offset": 9188,
       "length": 14,
       "value": "\"current_time\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyGroupCell.swift",
       "kind": "StringLiteral",
-      "offset": 9242,
+      "offset": 9217,
       "length": 13,
       "value": "\"target_time\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyGroupCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 9628,
+      "offset": 9603,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyGroupCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 10256,
+      "offset": 10231,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyGroupCell.swift",
       "kind": "StringLiteral",
-      "offset": 10811,
+      "offset": 10786,
       "length": 82,
       "value": "\"ttl_\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyGroupCell.swift",
       "kind": "StringLiteral",
-      "offset": 10853,
+      "offset": 10828,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyGroupCell.swift",
       "kind": "StringLiteral",
-      "offset": 10856,
+      "offset": 10831,
       "length": 1,
       "value": "\"_\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyGroupCell.swift",
       "kind": "StringLiteral",
-      "offset": 10889,
+      "offset": 10864,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyGroupCell.swift",
       "kind": "StringLiteral",
-      "offset": 10892,
+      "offset": 10867,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyGroupCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 11079,
+      "offset": 11054,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyGroupCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 11450,
+      "offset": 11425,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyGroupCell.swift",
       "kind": "StringLiteral",
-      "offset": 11510,
+      "offset": 11485,
       "length": 25,
       "value": "\"st_navigation_icon_left\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyGroupCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 11801,
+      "offset": 11776,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyGroupCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 11863,
+      "offset": 11838,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyGroupCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 12094,
+      "offset": 12069,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyGroupCell.swift",
       "kind": "StringLiteral",
-      "offset": 12155,
+      "offset": 12130,
       "length": 26,
       "value": "\"st_navigation_icon_right\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyGroupCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 12450,
+      "offset": 12425,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyGroupCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 12513,
+      "offset": 12488,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyGroupCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 15652,
+      "offset": 15627,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyGroupCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 15922,
+      "offset": 15897,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyGroupCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 16548,
+      "offset": 16523,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyGroupCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 18595,
+      "offset": 18570,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyGroupCell.swift",
       "kind": "StringLiteral",
-      "offset": 18803,
+      "offset": 18778,
       "length": 14,
       "value": "\"current_time\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyGroupCell.swift",
       "kind": "StringLiteral",
-      "offset": 18832,
+      "offset": 18807,
       "length": 13,
       "value": "\"target_time\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyGroupCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 19272,
+      "offset": 19247,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyGroupCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 19975,
+      "offset": 19950,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyGroupCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 35498,
+      "offset": 35472,
       "length": 5,
       "value": "false"
     },
@@ -31978,8 +32062,85 @@
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyLayer\/StorylyTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 423,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyLayer\/StorylyTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 482,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyLayer\/StorylyTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 542,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyLayer\/StorylyTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 599,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyLayer\/StorylyTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 664,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyLayer\/StorylyTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 723,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyLayer\/StorylyTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 758,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyLayer\/StorylyTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 790,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyLayer\/StorylyTextView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 822,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyLayer\/StorylyTextView.swift",
       "kind": "BooleanLiteral",
-      "offset": 602,
+      "offset": 1155,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyLayer\/StorylyTextView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1397,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/StorylyLayer\/StorylyTextView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1464,
       "length": 5,
       "value": "false"
     },
@@ -35668,56 +35829,56 @@
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/Share\/StorylyShareViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6233,
+      "offset": 6182,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/Share\/StorylyShareViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6265,
+      "offset": 6214,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/Share\/StorylyShareViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 6337,
+      "offset": 6286,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/Share\/StorylyShareViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6464,
+      "offset": 6413,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/Share\/StorylyShareViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6532,
+      "offset": 6481,
       "length": 3,
       "value": "425"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/Share\/StorylyShareViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6573,
+      "offset": 6522,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/Share\/StorylyShareViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6649,
+      "offset": 6598,
       "length": 2,
       "value": "64"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/StorylyPresenter\/Share\/StorylyShareViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 6694,
+      "offset": 6643,
       "length": 3,
       "value": "425"
     },
@@ -36627,3024 +36788,3066 @@
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 14285,
+      "offset": 14437,
       "length": 5,
       "value": "\"l_c\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 14334,
+      "offset": 14486,
       "length": 12,
       "value": "\"text_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 14371,
+      "offset": 14523,
       "length": 11,
       "value": "\"text_size\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 14409,
+      "offset": 14561,
       "length": 8,
       "value": "\"line_h\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 14442,
+      "offset": 14594,
       "length": 5,
       "value": "\"f_s\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 14477,
+      "offset": 14635,
       "length": 16,
       "value": "\"text_alignment\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 14523,
+      "offset": 14685,
+      "length": 7,
+      "value": "\"t_v_a\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
+      "kind": "StringLiteral",
+      "offset": 14722,
       "length": 17,
       "value": "\"text_span_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 14569,
+      "offset": 14768,
       "length": 16,
       "value": "\"text_font_name\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 14285,
+      "offset": 14828,
+      "length": 12,
+      "value": "\"text_style\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
+      "kind": "StringLiteral",
+      "offset": 14875,
+      "length": 8,
+      "value": "\"t_bg_t\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
+      "kind": "StringLiteral",
+      "offset": 14437,
       "length": 5,
       "value": "\"l_c\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 14334,
+      "offset": 14486,
       "length": 12,
       "value": "\"text_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 14371,
+      "offset": 14523,
       "length": 11,
       "value": "\"text_size\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 14409,
+      "offset": 14561,
       "length": 8,
       "value": "\"line_h\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 14442,
+      "offset": 14594,
       "length": 5,
       "value": "\"f_s\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 14477,
+      "offset": 14635,
       "length": 16,
       "value": "\"text_alignment\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 14523,
+      "offset": 14685,
+      "length": 7,
+      "value": "\"t_v_a\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
+      "kind": "StringLiteral",
+      "offset": 14722,
       "length": 17,
       "value": "\"text_span_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 14569,
+      "offset": 14768,
       "length": 16,
       "value": "\"text_font_name\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
+      "kind": "StringLiteral",
+      "offset": 14828,
+      "length": 12,
+      "value": "\"text_style\""
+    },
+    {
+      "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
+      "kind": "StringLiteral",
+      "offset": 14875,
+      "length": 8,
+      "value": "\"t_bg_t\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "FloatLiteral",
-      "offset": 15818,
+      "offset": 16359,
       "length": 4,
       "value": "3.15"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "FloatLiteral",
-      "offset": 15867,
+      "offset": 16408,
       "length": 3,
       "value": "0.1"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 16558,
+      "offset": 17099,
       "length": 13,
       "value": "\"emoji_codes\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 16601,
+      "offset": 17142,
       "length": 16,
       "value": "\"custom_payload\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 16651,
+      "offset": 17192,
       "length": 14,
       "value": "\"click_counts\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 16716,
+      "offset": 17257,
       "length": 18,
       "value": "\"background_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 16770,
+      "offset": 17311,
       "length": 23,
       "value": "\"impression_text_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 16833,
+      "offset": 17374,
       "length": 27,
       "value": "\"selected_background_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 16888,
+      "offset": 17429,
       "length": 14,
       "value": "\"border_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 16927,
+      "offset": 17468,
       "length": 11,
       "value": "\"is_result\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 16558,
+      "offset": 17099,
       "length": 13,
       "value": "\"emoji_codes\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 16601,
+      "offset": 17142,
       "length": 16,
       "value": "\"custom_payload\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 16651,
+      "offset": 17192,
       "length": 14,
       "value": "\"click_counts\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 16716,
+      "offset": 17257,
       "length": 18,
       "value": "\"background_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 16770,
+      "offset": 17311,
       "length": 23,
       "value": "\"impression_text_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 16833,
+      "offset": 17374,
       "length": 27,
       "value": "\"selected_background_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 16888,
+      "offset": 17429,
       "length": 14,
       "value": "\"border_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 16927,
+      "offset": 17468,
       "length": 11,
       "value": "\"is_result\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 19929,
+      "offset": 20470,
       "length": 14,
       "value": "\"image_source\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 19971,
+      "offset": 20512,
       "length": 14,
       "value": "\"content_mode\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 20010,
+      "offset": 20551,
       "length": 11,
       "value": "\"image_url\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 20047,
+      "offset": 20588,
       "length": 12,
       "value": "\"image_path\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 20091,
+      "offset": 20632,
       "length": 10,
       "value": "\"bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 20132,
+      "offset": 20673,
       "length": 17,
       "value": "\"gradient_colors\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 20178,
+      "offset": 20719,
       "length": 15,
       "value": "\"border_radius\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 20219,
+      "offset": 20760,
       "length": 9,
       "value": "\"outlink\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 20257,
+      "offset": 20798,
       "length": 7,
       "value": "\"is_bg\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 20288,
+      "offset": 20829,
       "length": 10,
       "value": "\"alt_text\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 19929,
+      "offset": 20470,
       "length": 14,
       "value": "\"image_source\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 19971,
+      "offset": 20512,
       "length": 14,
       "value": "\"content_mode\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 20010,
+      "offset": 20551,
       "length": 11,
       "value": "\"image_url\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 20047,
+      "offset": 20588,
       "length": 12,
       "value": "\"image_path\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 20091,
+      "offset": 20632,
       "length": 10,
       "value": "\"bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 20132,
+      "offset": 20673,
       "length": 17,
       "value": "\"gradient_colors\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 20178,
+      "offset": 20719,
       "length": 15,
       "value": "\"border_radius\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 20219,
+      "offset": 20760,
       "length": 9,
       "value": "\"outlink\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 20257,
+      "offset": 20798,
       "length": 7,
       "value": "\"is_bg\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 20288,
+      "offset": 20829,
       "length": 10,
       "value": "\"alt_text\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 22950,
+      "offset": 23491,
       "length": 16,
       "value": "\"l_o_vote_count\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23003,
+      "offset": 23544,
       "length": 16,
       "value": "\"r_o_vote_count\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23069,
+      "offset": 23610,
       "length": 10,
       "value": "\"l_o_text\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23111,
+      "offset": 23652,
       "length": 10,
       "value": "\"r_o_text\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23146,
+      "offset": 23687,
       "length": 8,
       "value": "\"p_text\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23190,
+      "offset": 23731,
       "length": 5,
       "value": "\"o_h\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23239,
+      "offset": 23780,
       "length": 11,
       "value": "\"has_title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23280,
+      "offset": 23821,
       "length": 16,
       "value": "\"custom_payload\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23325,
+      "offset": 23866,
       "length": 15,
       "value": "\"primary_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23371,
+      "offset": 23912,
       "length": 17,
       "value": "\"secondary_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23420,
+      "offset": 23961,
       "length": 16,
       "value": "\"p_border_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23468,
+      "offset": 24009,
       "length": 16,
       "value": "\"p_middle_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23514,
+      "offset": 24055,
       "length": 14,
       "value": "\"p_text_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23564,
+      "offset": 24105,
       "length": 21,
       "value": "\"p_text_shadow_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23621,
+      "offset": 24162,
       "length": 16,
       "value": "\"l_o_text_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23674,
+      "offset": 24215,
       "length": 16,
       "value": "\"r_o_text_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23728,
+      "offset": 24269,
       "length": 20,
       "value": "\"o_percentage_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23783,
+      "offset": 24324,
       "length": 16,
       "value": "\"o_button_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23822,
+      "offset": 24363,
       "length": 9,
       "value": "\"is_bold\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23856,
+      "offset": 24397,
       "length": 11,
       "value": "\"is_italic\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23896,
+      "offset": 24437,
       "length": 18,
       "value": "\"p_option_is_bold\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23945,
+      "offset": 24486,
       "length": 20,
       "value": "\"p_option_is_italic\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23990,
+      "offset": 24531,
       "length": 11,
       "value": "\"is_result\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 22950,
+      "offset": 23491,
       "length": 16,
       "value": "\"l_o_vote_count\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23003,
+      "offset": 23544,
       "length": 16,
       "value": "\"r_o_vote_count\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23069,
+      "offset": 23610,
       "length": 10,
       "value": "\"l_o_text\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23111,
+      "offset": 23652,
       "length": 10,
       "value": "\"r_o_text\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23146,
+      "offset": 23687,
       "length": 8,
       "value": "\"p_text\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23190,
+      "offset": 23731,
       "length": 5,
       "value": "\"o_h\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23239,
+      "offset": 23780,
       "length": 11,
       "value": "\"has_title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23280,
+      "offset": 23821,
       "length": 16,
       "value": "\"custom_payload\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23325,
+      "offset": 23866,
       "length": 15,
       "value": "\"primary_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23371,
+      "offset": 23912,
       "length": 17,
       "value": "\"secondary_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23420,
+      "offset": 23961,
       "length": 16,
       "value": "\"p_border_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23468,
+      "offset": 24009,
       "length": 16,
       "value": "\"p_middle_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23514,
+      "offset": 24055,
       "length": 14,
       "value": "\"p_text_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23564,
+      "offset": 24105,
       "length": 21,
       "value": "\"p_text_shadow_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23621,
+      "offset": 24162,
       "length": 16,
       "value": "\"l_o_text_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23674,
+      "offset": 24215,
       "length": 16,
       "value": "\"r_o_text_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23728,
+      "offset": 24269,
       "length": 20,
       "value": "\"o_percentage_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23783,
+      "offset": 24324,
       "length": 16,
       "value": "\"o_button_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23822,
+      "offset": 24363,
       "length": 9,
       "value": "\"is_bold\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23856,
+      "offset": 24397,
       "length": 11,
       "value": "\"is_italic\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23896,
+      "offset": 24437,
       "length": 18,
       "value": "\"p_option_is_bold\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23945,
+      "offset": 24486,
       "length": 20,
       "value": "\"p_option_is_italic\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 23990,
+      "offset": 24531,
       "length": 11,
       "value": "\"is_result\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29148,
+      "offset": 29689,
       "length": 5,
       "value": "\"o_h\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29178,
+      "offset": 29719,
       "length": 8,
       "value": "\"q_text\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29218,
+      "offset": 29759,
       "length": 11,
       "value": "\"q_o_texts\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29266,
+      "offset": 29807,
       "length": 11,
       "value": "\"q_o_votes\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29304,
+      "offset": 29845,
       "length": 10,
       "value": "\"q_answer\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29358,
+      "offset": 29899,
       "length": 11,
       "value": "\"has_title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29397,
+      "offset": 29938,
       "length": 12,
       "value": "\"q_bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29439,
+      "offset": 29980,
       "length": 14,
       "value": "\"q_text_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29485,
+      "offset": 30026,
       "length": 17,
       "value": "\"q_text_bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29538,
+      "offset": 30079,
       "length": 16,
       "value": "\"q_o_text_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29584,
+      "offset": 30125,
       "length": 16,
       "value": "\"custom_payload\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29634,
+      "offset": 30175,
       "length": 14,
       "value": "\"q_o_bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29686,
+      "offset": 30227,
       "length": 18,
       "value": "\"q_o_border_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29750,
+      "offset": 30291,
       "length": 20,
       "value": "\"q_s_o_border_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29802,
+      "offset": 30343,
       "length": 16,
       "value": "\"q_border_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29851,
+      "offset": 30392,
       "length": 16,
       "value": "\"w_answer_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29900,
+      "offset": 30441,
       "length": 16,
       "value": "\"r_answer_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29956,
+      "offset": 30497,
       "length": 19,
       "value": "\"percent_bar_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29998,
+      "offset": 30539,
       "length": 9,
       "value": "\"is_bold\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 30032,
+      "offset": 30573,
       "length": 11,
       "value": "\"is_italic\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 30072,
+      "offset": 30613,
       "length": 18,
       "value": "\"q_option_is_bold\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 30121,
+      "offset": 30662,
       "length": 20,
       "value": "\"q_option_is_italic\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 30166,
+      "offset": 30707,
       "length": 11,
       "value": "\"is_result\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29148,
+      "offset": 29689,
       "length": 5,
       "value": "\"o_h\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29178,
+      "offset": 29719,
       "length": 8,
       "value": "\"q_text\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29218,
+      "offset": 29759,
       "length": 11,
       "value": "\"q_o_texts\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29266,
+      "offset": 29807,
       "length": 11,
       "value": "\"q_o_votes\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29304,
+      "offset": 29845,
       "length": 10,
       "value": "\"q_answer\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29358,
+      "offset": 29899,
       "length": 11,
       "value": "\"has_title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29397,
+      "offset": 29938,
       "length": 12,
       "value": "\"q_bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29439,
+      "offset": 29980,
       "length": 14,
       "value": "\"q_text_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29485,
+      "offset": 30026,
       "length": 17,
       "value": "\"q_text_bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29538,
+      "offset": 30079,
       "length": 16,
       "value": "\"q_o_text_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29584,
+      "offset": 30125,
       "length": 16,
       "value": "\"custom_payload\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29634,
+      "offset": 30175,
       "length": 14,
       "value": "\"q_o_bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29686,
+      "offset": 30227,
       "length": 18,
       "value": "\"q_o_border_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29750,
+      "offset": 30291,
       "length": 20,
       "value": "\"q_s_o_border_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29802,
+      "offset": 30343,
       "length": 16,
       "value": "\"q_border_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29851,
+      "offset": 30392,
       "length": 16,
       "value": "\"w_answer_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29900,
+      "offset": 30441,
       "length": 16,
       "value": "\"r_answer_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29956,
+      "offset": 30497,
       "length": 19,
       "value": "\"percent_bar_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 29998,
+      "offset": 30539,
       "length": 9,
       "value": "\"is_bold\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 30032,
+      "offset": 30573,
       "length": 11,
       "value": "\"is_italic\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 30072,
+      "offset": 30613,
       "length": 18,
       "value": "\"q_option_is_bold\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 30121,
+      "offset": 30662,
       "length": 20,
       "value": "\"q_option_is_italic\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 30166,
+      "offset": 30707,
       "length": 11,
       "value": "\"is_result\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 35601,
+      "offset": 36142,
       "length": 7,
       "value": "\"theme\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 35630,
+      "offset": 36171,
       "length": 7,
       "value": "\"title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 35657,
+      "offset": 36198,
       "length": 5,
       "value": "\"end\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 35694,
+      "offset": 36235,
       "length": 6,
       "value": "\"n_ts\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 35736,
+      "offset": 36277,
       "length": 11,
       "value": "\"n_message\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 35771,
+      "offset": 36312,
       "length": 9,
       "value": "\"outlink\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 35805,
+      "offset": 36346,
       "length": 11,
       "value": "\"sdk_scale\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 35841,
+      "offset": 36382,
       "length": 10,
       "value": "\"rotation\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 35876,
+      "offset": 36417,
       "length": 11,
       "value": "\"has_title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 35919,
+      "offset": 36460,
       "length": 10,
       "value": "\"bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 35965,
+      "offset": 36506,
       "length": 15,
       "value": "\"unit_bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 36006,
+      "offset": 36547,
       "length": 12,
       "value": "\"text_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 36055,
+      "offset": 36596,
       "length": 16,
       "value": "\"toast_bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 36108,
+      "offset": 36649,
       "length": 17,
       "value": "\"cd_border_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 36148,
+      "offset": 36689,
       "length": 9,
       "value": "\"is_bold\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 36182,
+      "offset": 36723,
       "length": 11,
       "value": "\"is_italic\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 35601,
+      "offset": 36142,
       "length": 7,
       "value": "\"theme\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 35630,
+      "offset": 36171,
       "length": 7,
       "value": "\"title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 35657,
+      "offset": 36198,
       "length": 5,
       "value": "\"end\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 35694,
+      "offset": 36235,
       "length": 6,
       "value": "\"n_ts\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 35736,
+      "offset": 36277,
       "length": 11,
       "value": "\"n_message\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 35771,
+      "offset": 36312,
       "length": 9,
       "value": "\"outlink\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 35805,
+      "offset": 36346,
       "length": 11,
       "value": "\"sdk_scale\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 35841,
+      "offset": 36382,
       "length": 10,
       "value": "\"rotation\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 35876,
+      "offset": 36417,
       "length": 11,
       "value": "\"has_title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 35919,
+      "offset": 36460,
       "length": 10,
       "value": "\"bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 35965,
+      "offset": 36506,
       "length": 15,
       "value": "\"unit_bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 36006,
+      "offset": 36547,
       "length": 12,
       "value": "\"text_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 36055,
+      "offset": 36596,
       "length": 16,
       "value": "\"toast_bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 36108,
+      "offset": 36649,
       "length": 17,
       "value": "\"cd_border_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 36148,
+      "offset": 36689,
       "length": 9,
       "value": "\"is_bold\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 36182,
+      "offset": 36723,
       "length": 11,
       "value": "\"is_italic\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39408,
+      "offset": 39949,
       "length": 7,
       "value": "\"theme\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39437,
+      "offset": 39978,
       "length": 7,
       "value": "\"title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39470,
+      "offset": 40011,
       "length": 12,
       "value": "\"emoji_code\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39507,
+      "offset": 40048,
       "length": 11,
       "value": "\"sdk_scale\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39543,
+      "offset": 40084,
       "length": 11,
       "value": "\"has_title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39578,
+      "offset": 40119,
       "length": 16,
       "value": "\"average_answer\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39622,
+      "offset": 40163,
       "length": 14,
       "value": "\"answer_count\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39668,
+      "offset": 40209,
       "length": 10,
       "value": "\"bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39704,
+      "offset": 40245,
       "length": 9,
       "value": "\"t_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39741,
+      "offset": 40282,
       "length": 9,
       "value": "\"s_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39788,
+      "offset": 40329,
       "length": 12,
       "value": "\"s_bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39830,
+      "offset": 40371,
       "length": 16,
       "value": "\"custom_payload\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39880,
+      "offset": 40421,
       "length": 16,
       "value": "\"r_border_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39919,
+      "offset": 40460,
       "length": 9,
       "value": "\"is_bold\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39953,
+      "offset": 40494,
       "length": 11,
       "value": "\"is_italic\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39989,
+      "offset": 40530,
       "length": 11,
       "value": "\"is_result\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39408,
+      "offset": 39949,
       "length": 7,
       "value": "\"theme\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39437,
+      "offset": 39978,
       "length": 7,
       "value": "\"title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39470,
+      "offset": 40011,
       "length": 12,
       "value": "\"emoji_code\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39507,
+      "offset": 40048,
       "length": 11,
       "value": "\"sdk_scale\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39543,
+      "offset": 40084,
       "length": 11,
       "value": "\"has_title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39578,
+      "offset": 40119,
       "length": 16,
       "value": "\"average_answer\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39622,
+      "offset": 40163,
       "length": 14,
       "value": "\"answer_count\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39668,
+      "offset": 40209,
       "length": 10,
       "value": "\"bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39704,
+      "offset": 40245,
       "length": 9,
       "value": "\"t_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39741,
+      "offset": 40282,
       "length": 9,
       "value": "\"s_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39788,
+      "offset": 40329,
       "length": 12,
       "value": "\"s_bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39830,
+      "offset": 40371,
       "length": 16,
       "value": "\"custom_payload\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39880,
+      "offset": 40421,
       "length": 16,
       "value": "\"r_border_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39919,
+      "offset": 40460,
       "length": 9,
       "value": "\"is_bold\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39953,
+      "offset": 40494,
       "length": 11,
       "value": "\"is_italic\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 39989,
+      "offset": 40530,
       "length": 11,
       "value": "\"is_result\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 43820,
+      "offset": 44361,
       "length": 19,
       "value": "\"tooltip_placement\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 43877,
+      "offset": 44418,
       "length": 15,
       "value": "\"primary_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 43923,
+      "offset": 44464,
       "length": 17,
       "value": "\"secondary_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44012,
+      "offset": 44553,
       "length": 11,
       "value": "\"old_price\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44048,
+      "offset": 44589,
       "length": 11,
       "value": "\"icon_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44092,
+      "offset": 44633,
       "length": 10,
       "value": "\"bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44130,
+      "offset": 44671,
       "length": 14,
       "value": "\"border_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44175,
+      "offset": 44716,
       "length": 9,
       "value": "\"t_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44215,
+      "offset": 44756,
       "length": 9,
       "value": "\"p_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44261,
+      "offset": 44802,
       "length": 16,
       "value": "\"price_bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44311,
+      "offset": 44852,
       "length": 17,
       "value": "\"old_price_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44357,
+      "offset": 44898,
       "length": 15,
       "value": "\"chevron_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44398,
+      "offset": 44939,
       "length": 12,
       "value": "\"icon_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44442,
+      "offset": 44983,
       "length": 19,
       "value": "\"icon_border_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44497,
+      "offset": 45038,
       "length": 15,
       "value": "\"icon_bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44536,
+      "offset": 45077,
       "length": 9,
       "value": "\"is_bold\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44570,
+      "offset": 45111,
       "length": 11,
       "value": "\"is_italic\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44609,
+      "offset": 45150,
       "length": 15,
       "value": "\"price_is_bold\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44654,
+      "offset": 45195,
       "length": 17,
       "value": "\"price_is_italic\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44702,
+      "offset": 45243,
       "length": 19,
       "value": "\"old_price_is_bold\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44754,
+      "offset": 45295,
       "length": 21,
       "value": "\"old_price_is_italic\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 43820,
+      "offset": 44361,
       "length": 19,
       "value": "\"tooltip_placement\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 43877,
+      "offset": 44418,
       "length": 15,
       "value": "\"primary_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 43923,
+      "offset": 44464,
       "length": 17,
       "value": "\"secondary_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44012,
+      "offset": 44553,
       "length": 11,
       "value": "\"old_price\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44048,
+      "offset": 44589,
       "length": 11,
       "value": "\"icon_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44092,
+      "offset": 44633,
       "length": 10,
       "value": "\"bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44130,
+      "offset": 44671,
       "length": 14,
       "value": "\"border_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44175,
+      "offset": 44716,
       "length": 9,
       "value": "\"t_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44215,
+      "offset": 44756,
       "length": 9,
       "value": "\"p_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44261,
+      "offset": 44802,
       "length": 16,
       "value": "\"price_bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44311,
+      "offset": 44852,
       "length": 17,
       "value": "\"old_price_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44357,
+      "offset": 44898,
       "length": 15,
       "value": "\"chevron_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44398,
+      "offset": 44939,
       "length": 12,
       "value": "\"icon_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44442,
+      "offset": 44983,
       "length": 19,
       "value": "\"icon_border_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44497,
+      "offset": 45038,
       "length": 15,
       "value": "\"icon_bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44536,
+      "offset": 45077,
       "length": 9,
       "value": "\"is_bold\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44570,
+      "offset": 45111,
       "length": 11,
       "value": "\"is_italic\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44609,
+      "offset": 45150,
       "length": 15,
       "value": "\"price_is_bold\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44654,
+      "offset": 45195,
       "length": 17,
       "value": "\"price_is_italic\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44702,
+      "offset": 45243,
       "length": 19,
       "value": "\"old_price_is_bold\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 44754,
+      "offset": 45295,
       "length": 21,
       "value": "\"old_price_is_italic\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 48191,
+      "offset": 48732,
       "length": 8,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 48213,
+      "offset": 48754,
       "length": 6,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 48233,
+      "offset": 48774,
       "length": 8,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 48255,
+      "offset": 48796,
       "length": 10,
       "value": "4"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 48279,
+      "offset": 48820,
       "length": 9,
       "value": "5"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 48191,
+      "offset": 48732,
       "length": 8,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 48213,
+      "offset": 48754,
       "length": 6,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 48233,
+      "offset": 48774,
       "length": 8,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 48255,
+      "offset": 48796,
       "length": 10,
       "value": "4"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 48279,
+      "offset": 48820,
       "length": 9,
       "value": "5"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 48191,
+      "offset": 48732,
       "length": 8,
       "value": "1"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 48213,
+      "offset": 48754,
       "length": 6,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 48233,
+      "offset": 48774,
       "length": 8,
       "value": "3"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 48255,
+      "offset": 48796,
       "length": 10,
       "value": "4"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 48279,
+      "offset": 48820,
       "length": 9,
       "value": "5"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 49300,
+      "offset": 49841,
       "length": 11,
       "value": "\"image_url\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 49340,
+      "offset": 49881,
       "length": 15,
       "value": "\"border_radius\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 49398,
+      "offset": 49939,
       "length": 9,
       "value": "\"is_bold\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 49432,
+      "offset": 49973,
       "length": 11,
       "value": "\"is_italic\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 49474,
+      "offset": 50015,
       "length": 9,
       "value": "\"t_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 49539,
+      "offset": 50080,
       "length": 15,
       "value": "\"price_is_bold\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 49584,
+      "offset": 50125,
       "length": 17,
       "value": "\"price_is_italic\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 49632,
+      "offset": 50173,
       "length": 9,
       "value": "\"p_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 49675,
+      "offset": 50216,
       "length": 11,
       "value": "\"old_price\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 49717,
+      "offset": 50258,
       "length": 19,
       "value": "\"old_price_is_bold\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 49769,
+      "offset": 50310,
       "length": 21,
       "value": "\"old_price_is_italic\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 49824,
+      "offset": 50365,
       "length": 17,
       "value": "\"old_price_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 49876,
+      "offset": 50417,
       "length": 12,
       "value": "\"icon_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 49916,
+      "offset": 50457,
       "length": 15,
       "value": "\"icon_bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 49963,
+      "offset": 50504,
       "length": 10,
       "value": "\"bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 50001,
+      "offset": 50542,
       "length": 14,
       "value": "\"border_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 50044,
+      "offset": 50585,
       "length": 15,
       "value": "\"primary_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 50090,
+      "offset": 50631,
       "length": 17,
       "value": "\"secondary_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 49300,
+      "offset": 49841,
       "length": 11,
       "value": "\"image_url\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 49340,
+      "offset": 49881,
       "length": 15,
       "value": "\"border_radius\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 49398,
+      "offset": 49939,
       "length": 9,
       "value": "\"is_bold\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 49432,
+      "offset": 49973,
       "length": 11,
       "value": "\"is_italic\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 49474,
+      "offset": 50015,
       "length": 9,
       "value": "\"t_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 49539,
+      "offset": 50080,
       "length": 15,
       "value": "\"price_is_bold\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 49584,
+      "offset": 50125,
       "length": 17,
       "value": "\"price_is_italic\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 49632,
+      "offset": 50173,
       "length": 9,
       "value": "\"p_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 49675,
+      "offset": 50216,
       "length": 11,
       "value": "\"old_price\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 49717,
+      "offset": 50258,
       "length": 19,
       "value": "\"old_price_is_bold\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 49769,
+      "offset": 50310,
       "length": 21,
       "value": "\"old_price_is_italic\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 49824,
+      "offset": 50365,
       "length": 17,
       "value": "\"old_price_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 49876,
+      "offset": 50417,
       "length": 12,
       "value": "\"icon_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 49916,
+      "offset": 50457,
       "length": 15,
       "value": "\"icon_bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 49963,
+      "offset": 50504,
       "length": 10,
       "value": "\"bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 50001,
+      "offset": 50542,
       "length": 14,
       "value": "\"border_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 50044,
+      "offset": 50585,
       "length": 15,
       "value": "\"primary_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 50090,
+      "offset": 50631,
       "length": 17,
       "value": "\"secondary_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 53328,
+      "offset": 53869,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 53380,
+      "offset": 53921,
       "length": 5,
       "value": "\"l_h\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 53417,
+      "offset": 53958,
       "length": 9,
       "value": "\"b_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 53452,
+      "offset": 53993,
       "length": 9,
       "value": "\"t_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 53489,
+      "offset": 54030,
       "length": 14,
       "value": "\"border_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 53526,
+      "offset": 54067,
       "length": 9,
       "value": "\"is_bold\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 53560,
+      "offset": 54101,
       "length": 11,
       "value": "\"is_italic\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 53328,
+      "offset": 53869,
       "length": 6,
       "value": "\"text\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 53380,
+      "offset": 53921,
       "length": 5,
       "value": "\"l_h\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 53417,
+      "offset": 53958,
       "length": 9,
       "value": "\"b_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 53452,
+      "offset": 53993,
       "length": 9,
       "value": "\"t_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 53489,
+      "offset": 54030,
       "length": 14,
       "value": "\"border_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 53526,
+      "offset": 54067,
       "length": 9,
       "value": "\"is_bold\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 53560,
+      "offset": 54101,
       "length": 11,
       "value": "\"is_italic\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56125,
+      "offset": 56666,
       "length": 5,
       "value": "\"a_h\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56152,
+      "offset": 56693,
       "length": 7,
       "value": "\"scale\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56212,
+      "offset": 56753,
       "length": 11,
       "value": "\"has_title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56272,
+      "offset": 56813,
       "length": 9,
       "value": "\"is_bold\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56306,
+      "offset": 56847,
       "length": 11,
       "value": "\"is_italic\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56355,
+      "offset": 56896,
       "length": 15,
       "value": "\"primary_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56401,
+      "offset": 56942,
       "length": 17,
       "value": "\"secondary_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56451,
+      "offset": 56992,
       "length": 10,
       "value": "\"bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56492,
+      "offset": 57033,
       "length": 9,
       "value": "\"t_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56529,
+      "offset": 57070,
       "length": 14,
       "value": "\"border_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56580,
+      "offset": 57121,
       "length": 12,
       "value": "\"i_bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56625,
+      "offset": 57166,
       "length": 16,
       "value": "\"i_border_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56668,
+      "offset": 57209,
       "length": 9,
       "value": "\"i_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56719,
+      "offset": 57260,
       "length": 19,
       "value": "\"s_button_bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56770,
+      "offset": 57311,
       "length": 16,
       "value": "\"s_button_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56813,
+      "offset": 57354,
       "length": 5,
       "value": "\"a_t\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56850,
+      "offset": 57391,
       "length": 7,
       "value": "\"a_l_c\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56890,
+      "offset": 57431,
       "length": 7,
       "value": "\"a_l_h\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56125,
+      "offset": 56666,
       "length": 5,
       "value": "\"a_h\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56152,
+      "offset": 56693,
       "length": 7,
       "value": "\"scale\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56212,
+      "offset": 56753,
       "length": 11,
       "value": "\"has_title\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56272,
+      "offset": 56813,
       "length": 9,
       "value": "\"is_bold\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56306,
+      "offset": 56847,
       "length": 11,
       "value": "\"is_italic\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56355,
+      "offset": 56896,
       "length": 15,
       "value": "\"primary_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56401,
+      "offset": 56942,
       "length": 17,
       "value": "\"secondary_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56451,
+      "offset": 56992,
       "length": 10,
       "value": "\"bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56492,
+      "offset": 57033,
       "length": 9,
       "value": "\"t_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56529,
+      "offset": 57070,
       "length": 14,
       "value": "\"border_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56580,
+      "offset": 57121,
       "length": 12,
       "value": "\"i_bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56625,
+      "offset": 57166,
       "length": 16,
       "value": "\"i_border_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56668,
+      "offset": 57209,
       "length": 9,
       "value": "\"i_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56719,
+      "offset": 57260,
       "length": 19,
       "value": "\"s_button_bg_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56770,
+      "offset": 57311,
       "length": 16,
       "value": "\"s_button_color\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56813,
+      "offset": 57354,
       "length": 5,
       "value": "\"a_t\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56850,
+      "offset": 57391,
       "length": 7,
       "value": "\"a_l_c\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 56890,
+      "offset": 57431,
       "length": 7,
       "value": "\"a_l_h\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 61651,
+      "offset": 62192,
       "length": 11,
       "value": "\"video_url\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 61688,
+      "offset": 62229,
       "length": 12,
       "value": "\"video_path\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 61729,
+      "offset": 62270,
       "length": 15,
       "value": "\"thumbnail_url\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 61774,
+      "offset": 62315,
       "length": 16,
       "value": "\"thumbnail_path\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 61816,
+      "offset": 62357,
       "length": 12,
       "value": "\"video_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 61651,
+      "offset": 62192,
       "length": 11,
       "value": "\"video_url\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 61688,
+      "offset": 62229,
       "length": 12,
       "value": "\"video_path\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 61729,
+      "offset": 62270,
       "length": 15,
       "value": "\"thumbnail_url\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 61774,
+      "offset": 62315,
       "length": 16,
       "value": "\"thumbnail_path\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 61816,
+      "offset": 62357,
       "length": 12,
       "value": "\"video_type\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 63421,
+      "offset": 63962,
       "length": 16,
       "value": "\"Go to Checkout\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 63475,
+      "offset": 64016,
       "length": 7,
       "value": "\"Total\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 64265,
+      "offset": 64806,
       "length": 10,
       "value": "\"p_b_text\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 64313,
+      "offset": 64854,
       "length": 15,
       "value": "\"s_b_cart_text\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 64366,
+      "offset": 64907,
       "length": 15,
       "value": "\"s_b_back_text\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 64412,
+      "offset": 64953,
       "length": 11,
       "value": "\"s_message\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 64455,
+      "offset": 64996,
       "length": 7,
       "value": "\"max_v\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 64497,
+      "offset": 65038,
       "length": 20,
       "value": "\"is_s_price_visible\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 64548,
+      "offset": 65089,
       "length": 18,
       "value": "\"is_price_visible\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 64265,
+      "offset": 64806,
       "length": 10,
       "value": "\"p_b_text\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 64313,
+      "offset": 64854,
       "length": 15,
       "value": "\"s_b_cart_text\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 64366,
+      "offset": 64907,
       "length": 15,
       "value": "\"s_b_back_text\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 64412,
+      "offset": 64953,
       "length": 11,
       "value": "\"s_message\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 64455,
+      "offset": 64996,
       "length": 7,
       "value": "\"max_v\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 64497,
+      "offset": 65038,
       "length": 20,
       "value": "\"is_s_price_visible\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 64548,
+      "offset": 65089,
       "length": 18,
       "value": "\"is_price_visible\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 66974,
+      "offset": 67602,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 67004,
+      "offset": 67632,
       "length": 12,
       "value": "\"product_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 67047,
+      "offset": 67675,
       "length": 18,
       "value": "\"product_group_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 66974,
+      "offset": 67602,
       "length": 4,
       "value": "\"id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 67004,
+      "offset": 67632,
       "length": 12,
       "value": "\"product_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 67047,
+      "offset": 67675,
       "length": 18,
       "value": "\"product_group_id\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 68776,
+      "offset": 69404,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 68817,
+      "offset": 69445,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 68888,
+      "offset": 69516,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 68962,
+      "offset": 69590,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 69110,
+      "offset": 69738,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 69165,
+      "offset": 69793,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 69226,
+      "offset": 69854,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 69288,
+      "offset": 69916,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 69385,
+      "offset": 70013,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 69430,
+      "offset": 70058,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 69583,
+      "offset": 70211,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 69638,
+      "offset": 70266,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 69877,
+      "offset": 70505,
       "length": 5,
       "value": "\"c_x\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 69906,
+      "offset": 70534,
       "length": 5,
       "value": "\"c_y\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 69957,
+      "offset": 70585,
       "length": 5,
       "value": "\"uid\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 69988,
+      "offset": 70616,
       "length": 12,
       "value": "\"start_time\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 70024,
+      "offset": 70652,
       "length": 10,
       "value": "\"end_time\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 70060,
+      "offset": 70688,
       "length": 11,
       "value": "\"animation\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 69877,
+      "offset": 70505,
       "length": 5,
       "value": "\"c_x\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 69906,
+      "offset": 70534,
       "length": 5,
       "value": "\"c_y\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 69957,
+      "offset": 70585,
       "length": 5,
       "value": "\"uid\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 69988,
+      "offset": 70616,
       "length": 12,
       "value": "\"start_time\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 70024,
+      "offset": 70652,
       "length": 10,
       "value": "\"end_time\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 70060,
+      "offset": 70688,
       "length": 11,
       "value": "\"animation\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 73130,
+      "offset": 73758,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 73144,
+      "offset": 73772,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 73204,
+      "offset": 73832,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 73220,
+      "offset": 73848,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "IntegerLiteral",
-      "offset": 73243,
+      "offset": 73871,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 75136,
+      "offset": 75764,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 75169,
+      "offset": 75797,
       "length": 4,
       "value": "\"ex\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 75201,
+      "offset": 75829,
       "length": 4,
       "value": "\"ea\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 75230,
+      "offset": 75858,
       "length": 4,
       "value": "\"du\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 75136,
+      "offset": 75764,
       "length": 4,
       "value": "\"en\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 75169,
+      "offset": 75797,
       "length": 4,
       "value": "\"ex\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 75201,
+      "offset": 75829,
       "length": 4,
       "value": "\"ea\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 75230,
+      "offset": 75858,
       "length": 4,
       "value": "\"du\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 75988,
+      "offset": 76616,
       "length": 3,
       "value": "\"x\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 76009,
+      "offset": 76637,
       "length": 3,
       "value": "\"y\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 76037,
+      "offset": 76665,
       "length": 3,
       "value": "\"r\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 76064,
+      "offset": 76692,
       "length": 3,
       "value": "\"o\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 76089,
+      "offset": 76717,
       "length": 3,
       "value": "\"s\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 75988,
+      "offset": 76616,
       "length": 3,
       "value": "\"x\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 76009,
+      "offset": 76637,
       "length": 3,
       "value": "\"y\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 76037,
+      "offset": 76665,
       "length": 3,
       "value": "\"r\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 76064,
+      "offset": 76692,
       "length": 3,
       "value": "\"o\""
     },
     {
       "filePath": "\/Users\/runner\/work\/storyly-ios-sdk\/storyly-ios-sdk\/Storyly\/Storyly\/Source\/Data\/StorylyLayerItem.swift",
       "kind": "StringLiteral",
-      "offset": 76089,
+      "offset": 76717,
       "length": 3,
       "value": "\"s\""
     },

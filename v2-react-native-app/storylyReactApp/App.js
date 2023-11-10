@@ -9,14 +9,11 @@
  */
 
 import React, { Component } from 'react';
-import { View, Button, Image, Text, PixelRatio, SafeAreaView, Dimensions } from 'react-native';
+import { View, Button, Image, Text, PixelRatio, Linking } from 'react-native';
 import { Storyly } from 'storyly-react-native';
 
 const PIN_ICON = require('./assets/pin_icon.png'); 
 const HOVER_IMG = require('./assets/watch.jpg'); 
-
-const windowWidth = Dimensions.get('window').width;
-const windowHeight = Dimensions.get('window').height;
 
 
 const STORYLY_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NfaWQiOjc2MCwiYXBwX2lkIjo0MDUsImluc19pZCI6NDA0fQ.1AkqOy_lsiownTBNhVOUKc91uc9fDcAxfQZtpm3nj40"
@@ -27,69 +24,96 @@ const convertToNative = (size) => {
 
 
 const CustomPortraitView = ({ storyGroup }) => {
-   return (
-       <>
-           {(storyGroup ? (
-            <View style={{ width:'100%', height: 100, borderColor:"black", borderWidth:0.3, borderRadius:100 }}>
-                
-             <><Image style={{
-               width: 100,
-               height: "100%",
-               borderRadius: 100
-               }}
-               source={{ uri: storyGroup.iconUrl }} 
-               />
-               <View style={{ width: 100, height: 100, borderRadius: 100, position: 'absolute', flexDirection:'row', backgroundColor: storyGroup.seen ? "#16ad055f" : "#1905ad5f" }}>
-                 <View style={{ flexDirection: 'column', width: 90, marginLeft: 5, height: "100%", alignItems: 'center', justifyContent: 'flex-start' }}>
-                   {storyGroup.pinned ?
-                     <Image style={{ width: 20, height: 20, marginTop: 10, marginBottom: 10, borderRadius: 10 }} source={PIN_ICON} />
-                     :
-                     <View style={{ width: 20, height: 1, marginTop: 5, marginBottom: 10 }} />}
-                 </View>
+    return (
+        <>
+            {(storyGroup ? (
+                <View style={{ width: 100, height: 178 }}>
+                    <Image style={{
+                        width: "100%",
+                        height: "100%",
+                        borderRadius: 8 }}
+                        source={{ uri: storyGroup.iconUrl}} />
+                    <View style={{ width: 100, height: 178, borderRadius: 8, position: 'absolute', backgroundColor:  storyGroup.seen ? "#16ad055f" : "#1905ad5f" }}>
+                        <View style={{ flexDirection:'column', width: 90, marginLeft: 5, height: "20%", alignItems: 'center', justifyContent: 'flex-start'}}>
+                        { storyGroup.pinned ?
+                            <Image style={{ width: 20, height: 20, marginTop:10, marginBottom: 10, borderRadius: 10 }} source={ PIN_ICON } /> 
+                             : 
+                             <View style={{  width: 20, height: 1, marginTop:5, marginBottom: 10 }} />}
+                        </View> 
 
-                 <View style={{ flexDirection: 'column', width: 100, marginLeft: 5, height: "100%", alignItems: 'center', justifyContent: 'center' }}>
-                     <Text style={{ marginBottom: 5, flexWrap: 'wrap', width: "90%", textAlign: 'center', fontSize: 20, color: "black" }}>{storyGroup.title}</Text>
-                 </View>
-               </View></>
-                   
-            </View>
-           ) : (
-               <View style={{width: "100%", height: "100%",  borderRadius: 8 }}></View>
-           ))}
-       </>
-   )
+                        <View style={{ flexDirection:'column', width: 90, marginLeft: 5, height: "80%", alignItems: 'flex-end', justifyContent: 'flex-end'}}>
+                        <View style={{ width: "100%", marginLeft: 5, height: "70%", alignItems: 'center', justifyContent: 'flex-end'}}>
+                              <Image style={{ width: 60, height: 60, marginTop:5, borderRadius: 30 }} source={ HOVER_IMG } />
+                          </View>
+                          <View style={{ width: "100%", marginLeft: 5, height: "30%", alignItems: 'center', justifyContent: 'flex-end'}}>
+                              <Text style={{ marginBottom: 5,flexWrap: 'wrap', width: "90%", textAlign: 'center', fontWeight: 'bold', fontSize: 12, color: "white" }}>{storyGroup.title}</Text>
+                          </View>
+                        </View> 
+                    </View>
+                </View>
+            ) : (
+                <View style={{width: "100%", height: "100%",  borderRadius: 8 }}></View>
+            ))}
+        </>
+    )
 }
 
-//You can add/change your labels according to your use cases. Then you can re-init Storyly when "Labels" is change to real time setting.
-const Labels = ['newUser', 'goldMember']
 
 
 export default class App extends Component {
     render() {
         return (
-            <SafeAreaView style={{ width: '100%', height:'100%' }}>
-            <Storyly
+            <View>
+                 <Storyly
                     ref={ref => { this.storyly = ref }}
-                    style={{ width: '100%', height:'100%', marginTop: 10, marginBottom: 10}}
-                    storylyId={STORYLY_TOKEN}
-                    storyGroupListOrientation='vertical'
+                    style={{ width: '100%', height: convertToNative(178), marginTop: 10, marginBottom: 10}}
+                    storylyId={"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJhY2NfaWQiOjcxMzcsImFwcF9pZCI6MTE3NDYsImluc19pZCI6MTI1ODJ9.k7IVUbx4b23WTobh7u-ZIAYMdjN1xIDyA8z5WWncWbU"}
                     storyGroupViewFactory={{
-                       width: convertToNative(windowWidth),
-                       height: convertToNative(100),
+                       width: convertToNative(100),
+                       height: convertToNative(178),
                        customView: CustomPortraitView
                    }}
-                    storylySegments= {Labels}
-                    onLoad={loadEvent => {
-                        console.log(`[Storyly] onLoad`);
-                    }}
+                   storyFallbackIsEnabled = {false}
+                   storyGroupTextTypeface = "lobster1.4"
+                   //storyCartIsEnabled = {true}
+                   /*onCartUpdate={ eventPayload => {
+                    this.storyly.approveCartChange(eventPayload.responseId, {
+                        "items": [
+                            {
+                                "item": {
+                                    "productId": "1",
+                                    "productGroupId": "1",
+                                    "title": "High-waist midi skirt",
+                                    "url": "https://www.storyly.io/",
+                                    "desc": "High-waist midi skirt made of a viscose blend. Featuring a slit at the hem and invisible zip fastening.",
+                                    "price": 25.99,
+                                    "imageUrls": ["https://random-feed-generator.vercel.app/images/clothes/group-1/1-6D7868.jpg","https://random-feed-generator.vercel.app/images/clothes/group-1/2-6D7868.jpg","https://random-feed-generator.vercel.app/images/clothes/group-1/3-6D7868.jpg","https://random-feed-generator.vercel.app/images/clothes/group-1/4-6D7868.jpg"],
+                                    "variants": [
+                                    {"name":"color","value":"#6D7868"},
+                                    {"name":"size","value":"XS"}
+                                    ]
+                                },
+                                "totalPrice": 12,
+                                "oldTotalPrice": 15,
+                                "quantity": 2
+                            }
+                        ],
+                        "totalPrice": 12,
+                        "oldTotalPrice": 15,
+                        "currency": "USD"
+                       });
+                    }}*/
+                    onLoad={event => { console.log("[Storyly] onLoad", event.storyGroupList.length, event.dataSource); }}
                     onFail={errorMessage => {
                         console.log(`[Storyly] onFail ${errorMessage}`);
                     }}
-                    onPress={pressEvent => {
-                        console.log(`[Storyly] onPress ${JSON.stringify(pressEvent)}`);
-                    }}
+                    onPress={story => { 
+                        Linking.openURL(story.media.actionUrl)
+                        console.log(`[Storyly] default - onPress`, story.media.actionUrl);
+                        this.storyly.pauseStory()
+                      }}
                     onEvent={eventPayload => {
-                        console.log(`[Storyly] onEvent ${JSON.stringify(eventPayload)}`);
+                        console.log(`[Storyly] onEvent onEvent ${JSON.stringify(eventPayload)} `);
                     }}
                     onStoryOpen={() => {
                         console.log("[Storyly] onStoryOpen");
@@ -104,11 +128,10 @@ export default class App extends Component {
                         console.log(`[Storyly] onStoryUserInteracted ${JSON.stringify(interactionEvent)}`);
                     }}/>
                 <Button
-                    //You can use refresh() method when "Labels" is change to real time setting.
-                    onPress={() => { this.storyly.refresh(); }}
-                    title="Refresh"
+                    onPress={() => { this.storyly.resumeStory(); }}
+                    title="Resume Story"
                 />
-            </SafeAreaView>
+            </View>
         );
     }
 }
